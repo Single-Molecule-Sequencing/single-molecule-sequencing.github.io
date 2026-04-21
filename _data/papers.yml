@@ -83,9 +83,9 @@ infrastructure:
     link_text: "Docs"
 
   - title: "lab-wiki"
-    description: "Decisions, meeting transcripts, entity pages, cross-paper references. Private."
-    url: "https://github.com/Single-Molecule-Sequencing/lab-wiki"
-    link_text: "Repo"
+    description: "27 decisions · 239 meeting transcripts · 51 entity pages · 10 projects. Private — GitHub collaborator access required."
+    url: "https://studious-adventure-j1zq1vo.pages.github.io/"
+    link_text: "Landing"
 
   - title: "lab-system"
     description: "Cross-registry dashboard — catalog growth, knowledge graph, paper-citation web, theme momentum. Nightly regen. Private."
