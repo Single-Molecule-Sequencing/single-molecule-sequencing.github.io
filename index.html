@@ -44,155 +44,39 @@ title: Home
         <section class="grid-section">
             <h2>Papers</h2>
             <div class="repo-grid">
-
+                {% for item in site.data.papers.papers %}
                 <div class="card">
-                    <h3>End Reason Filtering</h3>
-                    <p>254.8M reads across 72 ONT runs — how end_reason metadata partitions truncated from
-                        full-length molecules. Target: <em>Scientific Data</em>. Drafting.</p>
-                    <a href="https://fantastic-adventure-5vwmj5y.pages.github.io/" class="card-link">Landing &rarr;</a>
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                    <a href="{{ item.url }}" class="card-link">{% if item.link_text %}{{ item.link_text }}{% else %}Repo{% endif %} &rarr;</a>
                 </div>
-
-                <div class="card">
-                    <h3>PGx Adaptive Sampling</h3>
-                    <p>Real-time signal-level pharmacogene enrichment via ONT adaptive sampling — no Cas9, no
-                        prep-side enrichment. Target: <em>CPT</em>. Drafting.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>Cas9 Targeted Sequencing</h3>
-                    <p>PacBio HiFi + Cas9 enrichment for CYP2D6 pharmacogenomic diplotyping. Panel evaluation
-                        framework with Wald CIs on per-guide efficiency. Target: <em>Nature Genetics</em>.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>SMAseq</h3>
-                    <p>Single-Molecule Accuracy sequencing — per-read error measurement via synthetic molecular
-                        barcodes. Target: <em>Nature Genetics</em>. Drafting.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/SMAseq_paper" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>Golden Gate Methods</h3>
-                    <p>Golden Gate cloning for combinatorial variant libraries — fusion-site optimization,
-                        one-pot donor assembly. Target: <em>ACS Synthetic Biology</em>. Drafting.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/golden-gate" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>Wolfe Thesis</h3>
-                    <p>Doctoral thesis (Wolfe M.) on nanopore and PacBio pharmacogenomic methods. Submitted.</p>
-                    <a href="https://curly-potato-o384r14.pages.github.io/" class="card-link">Landing &rarr;</a>
-                </div>
-
+                {% endfor %}
             </div>
         </section>
 
         <section class="grid-section">
             <h2>Projects</h2>
             <div class="repo-grid">
-
+                {% for item in site.data.papers.projects %}
                 <div class="card">
-                    <h3>lab-math</h3>
-                    <p>Mathematical foundations — probability theory, Bayesian inference for haplotype
-                        classification, SMA-seq error bounds. Unified Mathematical Framework.</p>
-                    <a href="https://improved-parakeet-2qy2nq2.pages.github.io/" class="card-link">Landing &rarr;</a>
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                    <a href="{{ item.url }}" class="card-link">{% if item.link_text %}{{ item.link_text }}{% else %}Repo{% endif %} &rarr;</a>
                 </div>
-
-                <div class="card">
-                    <h3>sma-seq</h3>
-                    <p>SMA-seq project coordination — per-read error measurement via synthetic molecular
-                        barcodes. Paper output: SMAseq.</p>
-                    <a href="https://vigilant-enigma-e4ev2o3.pages.github.io/" class="card-link">Landing &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>pgx-adaptive-sampling</h3>
-                    <p>ONT adaptive-sampling methodology — real-time pharmacogene enrichment via unblock/mux
-                        changes, library-prep-free.</p>
-                    <a href="https://legendary-couscous-y78rw1q.pages.github.io/" class="card-link">Landing &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>cas9-targeted-sequencing</h3>
-                    <p>Cas9-mediated PacBio HiFi targeted sequencing for CYP2D6 pharmacogenomics. gRNA panel
-                        design, cleavage-efficiency modeling, machine learning.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>nuclease-activity</h3>
-                    <p>Cas9 nuclease-activity characterization — cleavage-end structures, nickase behavior,
-                        in-vitro validation.</p>
-                    <a href="https://redesigned-adventure-r32rw74.pages.github.io/" class="card-link">Landing &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>golden-gate</h3>
-                    <p>Golden Gate assembly — SV haplotype reuse, PGx panel extension, Cas9-nickase
-                        integration. Paper output: Golden Gate Methods.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/golden-gate" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>fine-tuning</h3>
-                    <p>Model fine-tuning for lab-specific basecalling and downstream classification tasks.</p>
-                    <a href="https://supreme-happiness-n3y8rjw.pages.github.io/" class="card-link">Landing &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>fragment-viewer</h3>
-                    <p>Interactive CE/GeneMapper fragment analyzer. Electropherograms, dye-calibrated peak
-                        classification, Cas9 cut-site prediction. Public.</p>
-                    <a href="https://single-molecule-sequencing.github.io/fragment-viewer/" class="card-link">Open viewer &rarr;</a>
-                </div>
-
+                {% endfor %}
             </div>
         </section>
 
         <section class="grid-section">
             <h2>Infrastructure</h2>
             <div class="repo-grid">
-
+                {% for item in site.data.papers.infrastructure %}
                 <div class="card">
-                    <h3>ont-ecosystem</h3>
-                    <p>Core analysis framework — 114 skills, 89 CLI tools, 155 library modules for ONT/PacBio
-                        workflows. Public documentation.</p>
-                    <a href="https://single-molecule-sequencing.github.io/ont-ecosystem/" class="card-link">Docs &rarr;</a>
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                    <a href="{{ item.url }}" class="card-link">{% if item.link_text %}{{ item.link_text }}{% else %}Repo{% endif %} &rarr;</a>
                 </div>
-
-                <div class="card">
-                    <h3>lab-wiki</h3>
-                    <p>Decisions, meeting transcripts, entity pages, cross-paper references. Private.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/lab-wiki" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>lab-system</h3>
-                    <p>Cross-registry dashboard — catalog growth, knowledge graph, paper-citation web, theme
-                        momentum. Nightly regen. Private.</p>
-                    <a href="https://curly-chainsaw-7pee8lw.pages.github.io/" class="card-link">Dashboard &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>lab-papers</h3>
-                    <p>Canonical paper + project registry, questionnaires, weekly status dashboards. Private.</p>
-                    <a href="https://cautious-adventure-4q3g184.pages.github.io/" class="card-link">Dashboard &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>SMS Textbook</h3>
-                    <p>Single Molecule Sequencing textbook — chapter-level reference cited by lab papers.</p>
-                    <a href="https://github.com/Single-Molecule-Sequencing/SMS_Textbook" class="card-link">Repo &rarr;</a>
-                </div>
-
-                <div class="card">
-                    <h3>Athey Lab Website</h3>
-                    <p>Public-facing lab homepage — team, publications, contact.</p>
-                    <a href="https://single-molecule-sequencing.github.io/AtheyLab-Website/" class="card-link">Open site &rarr;</a>
-                </div>
-
+                {% endfor %}
             </div>
         </section>
 
