@@ -1,108 +1,100 @@
-# Hub cards: papers / projects / infrastructure.
+# Hub cards: research themes, open software, and public resources.
 # index.html loops over these via Jekyll liquid. Edit here, commit, Pages rebuilds.
 #
 # Each entry: title, description (HTML allowed, <em> preserved), url, link_text.
 # `link_text` controls the card CTA label. Defaults to "Repo" if omitted.
+#
+# PUBLIC-CONTENT POLICY:
+#   - Link only to public repositories and public Pages sites.
+#   - Describe research at a general / public-appropriate level.
+#   - Do not reference unpublished manuscripts, journal targets, or drafting
+#     state; the authoritative publication list lives on the Athey Lab site.
+#   - Do not link to private-repo Pages subdomains (randomized URLs).
 
-papers:
-  - title: "End Reason Filtering"
-    description: "254.8M reads across 72 ONT runs — how end_reason metadata partitions truncated from full-length molecules. Target: <em>Scientific Data</em>. Drafting."
-    url: "https://fantastic-adventure-5vwmj5y.pages.github.io/"
-    link_text: "Landing"
+themes:
+  - title: "Pharmacogenomics"
+    description: "Long-read sequencing of pharmacogenomic loci — including the complex <em>CYP2D6</em> region — with haplotype-aware star-allele calling and clinical-actionability reporting."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/drylab.html"
+    link_text: "Learn more"
 
-  - title: "PGx Adaptive Sampling"
-    description: "Real-time signal-level pharmacogene enrichment via ONT adaptive sampling — no Cas9, no prep-side enrichment. Target: <em>CPT</em>. Drafting."
-    url: "https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling"
+  - title: "Targeted Enrichment"
+    description: "Cas9/CRISPR-based targeted sequencing and real-time nanopore adaptive sampling for focused, cost-efficient long-read panels."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/wetlab.html"
+    link_text: "Learn more"
+
+  - title: "Single-Molecule Accuracy"
+    description: "Empirical characterization of per-read error rates and basecaller behavior using sequence-defined DNA standards and reference-grade controls."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/drylab.html"
+    link_text: "Learn more"
+
+  - title: "Long-Read Bioinformatics"
+    description: "End-to-end pipelines for Oxford Nanopore and PacBio HiFi data — basecalling, alignment, methylation handling, structural-variant calling, and visualization."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/drylab.html"
+    link_text: "Learn more"
+
+  - title: "Assay Development"
+    description: "Wet-lab methods for guide-panel design, nickase chemistry, library-prep optimization, and fragment-analysis QC."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/wetlab.html"
+    link_text: "Learn more"
+
+  - title: "Statistical Methods"
+    description: "Bayesian and likelihood-based inference for haplotype classification, assay-efficiency modeling, and single-molecule confidence quantification."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/drylab.html"
+    link_text: "Learn more"
+
+software:
+  - title: "ONT-SMA-seq"
+    description: "Single-Molecule Accuracy sequencing workflow for Oxford Nanopore — pure Python plus SQLite for reproducible per-read error measurement."
+    url: "https://github.com/Single-Molecule-Sequencing/ONT-SMA-seq"
     link_text: "Repo"
 
-  - title: "Cas9 Targeted Sequencing"
-    description: "PacBio HiFi + Cas9 enrichment for CYP2D6 pharmacogenomic diplotyping. Panel evaluation framework with Wald CIs on per-guide efficiency. Target: <em>Nature Genetics</em>."
-    url: "https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing"
+  - title: "CypScope"
+    description: "Read-coverage and QC reporting across the <em>CYP2D6</em>, <em>CYP2D7</em>, and <em>CYP2D8P</em> region for ONT sequencing data."
+    url: "https://github.com/Single-Molecule-Sequencing/CypScope"
     link_text: "Repo"
 
-  - title: "SMAseq"
-    description: "Single-Molecule Accuracy sequencing — per-read error measurement via synthetic molecular barcodes. Target: <em>Nature Genetics</em>. Drafting."
-    url: "https://github.com/Single-Molecule-Sequencing/SMAseq_paper"
+  - title: "barbell"
+    description: "Fast and accurate nanopore demultiplexing — implemented in Rust for high-throughput barcode assignment."
+    url: "https://github.com/Single-Molecule-Sequencing/barbell"
     link_text: "Repo"
 
-  - title: "Golden Gate Methods"
-    description: "Golden Gate cloning for combinatorial variant libraries — fusion-site optimization, one-pot donor assembly. Target: <em>ACS Synthetic Biology</em>. Drafting."
-    url: "https://github.com/Single-Molecule-Sequencing/golden-gate"
+  - title: "dorado-run"
+    description: "Oxford Nanopore Dorado basecaller orchestration pipeline — reproducible batch runs and model management."
+    url: "https://github.com/Single-Molecule-Sequencing/dorado-run"
     link_text: "Repo"
-
-  - title: "Wolfe Thesis"
-    description: "Doctoral thesis (Wolfe M.) on nanopore and PacBio pharmacogenomic methods. Submitted."
-    url: "https://curly-potato-o384r14.pages.github.io/"
-    link_text: "Landing"
-
-projects:
-  - title: "lab-math"
-    description: "Mathematical foundations — probability theory, Bayesian inference for haplotype classification, SMA-seq error bounds. Unified Mathematical Framework."
-    url: "https://improved-parakeet-2qy2nq2.pages.github.io/"
-    link_text: "Landing"
-
-  - title: "sma-seq"
-    description: "SMA-seq project coordination — per-read error measurement via synthetic molecular barcodes. Paper output: SMAseq."
-    url: "https://vigilant-enigma-e4ev2o3.pages.github.io/"
-    link_text: "Landing"
-
-  - title: "pgx-adaptive-sampling"
-    description: "ONT adaptive-sampling methodology — real-time pharmacogene enrichment via unblock/mux changes, library-prep-free."
-    url: "https://legendary-couscous-y78rw1q.pages.github.io/"
-    link_text: "Landing"
-
-  - title: "cas9-targeted-sequencing"
-    description: "Cas9-mediated PacBio HiFi targeted sequencing for CYP2D6 pharmacogenomics. gRNA panel design, cleavage-efficiency modeling, machine learning."
-    url: "https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing"
-    link_text: "Repo"
-
-  - title: "nuclease-activity"
-    description: "Cas9 nuclease-activity characterization — cleavage-end structures, nickase behavior, in-vitro validation."
-    url: "https://redesigned-adventure-r32rw74.pages.github.io/"
-    link_text: "Landing"
-
-  - title: "golden-gate"
-    description: "Golden Gate assembly — SV haplotype reuse, PGx panel extension, Cas9-nickase integration. Paper output: Golden Gate Methods."
-    url: "https://github.com/Single-Molecule-Sequencing/golden-gate"
-    link_text: "Repo"
-
-  - title: "fine-tuning"
-    description: "Model fine-tuning for lab-specific basecalling and downstream classification tasks."
-    url: "https://supreme-happiness-n3y8rjw.pages.github.io/"
-    link_text: "Landing"
 
   - title: "fragment-viewer"
-    description: "Interactive CE/GeneMapper fragment analyzer. Electropherograms, dye-calibrated peak classification, Cas9 cut-site prediction. Public."
+    description: "Interactive CE / GeneMapper fragment analyzer. Electropherograms, dye-calibrated peak classification, Cas9 cut-site prediction."
     url: "https://single-molecule-sequencing.github.io/fragment-viewer/"
     link_text: "Open viewer"
 
-infrastructure:
+  - title: "sss"
+    description: "Sequencing sample-sheet generator for wet-lab workflows."
+    url: "https://single-molecule-sequencing.github.io/sss/"
+    link_text: "Open tool"
+
+  - title: "PGx-prep"
+    description: "Preparatory demultiplexing and HPC/SLURM workflows on BAM files for the ONT pharmacogenomics pipeline."
+    url: "https://github.com/Single-Molecule-Sequencing/PGx-prep"
+    link_text: "Repo"
+
+  - title: "CypScope-prep"
+    description: "Preparatory FASTQ extraction and alignment on per-sample BAMs for CypScope."
+    url: "https://github.com/Single-Molecule-Sequencing/CypScope-prep"
+    link_text: "Repo"
+
+resources:
+  - title: "Athey Lab Homepage"
+    description: "Public-facing lab site — team, publications, research, and contact."
+    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/"
+    link_text: "Visit site"
+
   - title: "ont-ecosystem"
-    description: "Core analysis framework — 114 skills, 89 CLI tools, 155 library modules for ONT/PacBio workflows. Public documentation."
+    description: "Public documentation for the lab's Oxford Nanopore analysis framework — library modules, CLI tools, and reusable analysis skills."
     url: "https://single-molecule-sequencing.github.io/ont-ecosystem/"
     link_text: "Docs"
 
-  - title: "lab-wiki"
-    description: "27 decisions · 239 meeting transcripts · 51 entity pages · 10 projects. Private — GitHub collaborator access required."
-    url: "https://studious-adventure-j1zq1vo.pages.github.io/"
-    link_text: "Landing"
-
-  - title: "lab-system"
-    description: "Cross-registry dashboard — catalog growth, knowledge graph, paper-citation web, theme momentum. Nightly regen. Private."
-    url: "https://curly-chainsaw-7pee8lw.pages.github.io/"
-    link_text: "Dashboard"
-
-  - title: "lab-papers"
-    description: "Canonical paper + project registry, questionnaires, weekly status dashboards. Private."
-    url: "https://cautious-adventure-4q3g184.pages.github.io/"
-    link_text: "Dashboard"
-
-  - title: "SMS Textbook"
-    description: "Single Molecule Sequencing textbook — chapter-level reference cited by lab papers."
-    url: "https://github.com/Single-Molecule-Sequencing/SMS_Textbook"
-    link_text: "Repo"
-
-  - title: "Athey Lab Website"
-    description: "Public-facing lab homepage — team, publications, contact."
-    url: "https://single-molecule-sequencing.github.io/AtheyLab-Website/"
-    link_text: "Open site"
+  - title: "GitHub Organization"
+    description: "Browse the full list of the lab's open-source repositories."
+    url: "https://github.com/Single-Molecule-Sequencing"
+    link_text: "Open GitHub"
