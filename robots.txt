@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://single-molecule-sequencing.github.io/sitemap.xml
