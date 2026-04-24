@@ -1,52 +1,18 @@
-generated_at: '2026-04-24T17:39:56.658728+00:00'
+generated_at: '2026-04-24T17:43:18.944609+00:00'
 window_days: 7
 org: Single-Molecule-Sequencing
 totals:
-  repos_tracked: 48
-  commits_past_week: 108
-  issues_opened: 28
-  issues_closed: 44
-  prs_opened: 23
-  prs_merged: 2
+  repos_tracked: 10
+  commits_past_week: 10
+  issues_opened: 23
+  issues_closed: 22
+  prs_opened: 1
+  prs_merged: 0
   prs_closed: 0
-  releases_recent: 3
-  open_issues: 13
-  open_prs: 24
-repos:
-- name: End_Reason_Manuscript
-  default_branch: main
-  description: ''
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/End_Reason_Manuscript
-  commits_in_window: 5
-  last_commit:
-    sha: 05f8888
-    message: 'readme: pin PDF + Pages badges to top for visibility'
-    when: '2026-04-24T17:26:28Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/End_Reason_Manuscript/commit/05f8888ef816ae668b2e4ec32ba9904291d039eb
+  releases_recent: 0
   open_issues: 1
-  open_prs: 0
-  ci_status: failure
-  ci_url: https://github.com/Single-Molecule-Sequencing/End_Reason_Manuscript/actions/runs/24902814060
-  days_since_last_commit: 0
-- name: AtheyLab-Website
-  default_branch: main
-  description: Athey Lab website overhaul
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/AtheyLab-Website
-  commits_in_window: 5
-  last_commit:
-    sha: 44aaaf5
-    message: 'readme: pin site + issues badges to top for visibility'
-    when: '2026-04-24T17:26:50Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/AtheyLab-Website/commit/44aaaf5539211900f13dfc96617bef41caff90a5
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/AtheyLab-Website/actions/runs/24902830206
-  days_since_last_commit: 0
+  open_prs: 2
+repos:
 - name: single-molecule-sequencing.github.io
   default_branch: main
   description: Org GitHub Page init
@@ -54,274 +20,16 @@ repos:
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io
   commits_in_window: 5
   last_commit:
-    sha: 654df78
-    message: Add sitemap.xml and robots.txt
-    when: '2026-04-23T19:33:05Z'
+    sha: 66c74e2
+    message: "feat: lab pulse dashboard \u2014 nightly org-wide activity digest"
+    when: '2026-04-24T17:42:56Z'
     author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/654df78e8583d430081f119a33a6e486461bf59f
+    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/66c74e2e673995ebd35133728441e5736a819d62
   open_issues: 0
   open_prs: 0
   ci_status: success
   ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/24854811479
   days_since_last_commit: 0
-- name: ont-ecosystem
-  default_branch: main
-  description: Oxford Nanopore experiment management with provenance tracking
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem
-  commits_in_window: 5
-  last_commit:
-    sha: 63ac677
-    message: 'report: add auto-built technical report (first draft)'
-    when: '2026-04-24T17:38:51Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/commit/63ac6779e6f34d4ddb83ad8a60dedd1448e633e5
-  open_issues: 1
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/actions/runs/24903339244
-  days_since_last_commit: 0
-- name: paper-pgx-adaptive-sampling
-  default_branch: main
-  description: ''
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling
-  commits_in_window: 5
-  last_commit:
-    sha: f368ce4
-    message: 'readme: swap build-status badge for direct-PDF badge'
-    when: '2026-04-24T17:37:23Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling/commit/f368ce4500185909953bee44cbd26d10c0903648
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling/actions/runs/24903165939
-  days_since_last_commit: 0
-- name: SMAseq_paper
-  default_branch: master
-  description: 'Manuscript workspace: Empirical error rate determination in single-molecule sequencing
-    using sequence-defined DNA standards'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/SMAseq_paper
-  commits_in_window: 5
-  last_commit:
-    sha: 6380c33
-    message: 'readme: pin PDF + Pages badges to top for visibility'
-    when: '2026-04-24T17:26:35Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/SMAseq_paper/commit/6380c33863ef54e5db46bf0647804e922d5bbd5c
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/SMAseq_paper/actions/runs/24739690217
-  days_since_last_commit: 0
-- name: Wolfe_Thesis_final
-  default_branch: main
-  description: ''
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final
-  commits_in_window: 5
-  last_commit:
-    sha: bec0ba2
-    message: Update README with latest build info [skip ci]
-    when: '2026-04-24T17:30:07Z'
-    author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/commit/bec0ba2ab6bf5d9e1c4d5a9df1b8e870ea620d66
-  open_issues: 8
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/actions/runs/24902824955
-  days_since_last_commit: 0
-- name: lab-papers
-  default_branch: main
-  description: 'Lab-wide infrastructure for manuscripts: validated reference library, shared LaTeX macros,
-    matplotlib conventions, reusable CI, submission checklists, and Claude skills.'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-papers
-  commits_in_window: 5
-  last_commit:
-    sha: 8baa529
-    message: 'readme: pin site + issues badges to top for visibility'
-    when: '2026-04-24T17:26:56Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/lab-papers/commit/8baa5294b8ef5242f27a1d42e69aa2899470f920
-  open_issues: 0
-  open_prs: 2
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/lab-papers/actions/runs/24902832758
-  days_since_last_commit: 0
-- name: lab-wiki
-  default_branch: master
-  description: "Athey Lab living knowledge base \u2014 LLM-maintained wiki"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-wiki
-  commits_in_window: 5
-  last_commit:
-    sha: 07595ef
-    message: 'readme: pin site + issues badges to top for visibility'
-    when: '2026-04-24T17:26:52Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/lab-wiki/commit/07595ef4e69189e90d087adb70714a68c49f48d2
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/lab-wiki/actions/runs/24902580301
-  days_since_last_commit: 0
-- name: lab-system
-  default_branch: main
-  description: 'Ambient lab-context runtime: locations manifest + MCP server + workspace launcher'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-system
-  commits_in_window: 5
-  last_commit:
-    sha: 2b10b24
-    message: 'readme: pin site + issues badges to top for visibility'
-    when: '2026-04-24T17:26:57Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/lab-system/commit/2b10b24b5d7b414d9a6e7ad9747ebd13b95db6bd
-  open_issues: 1
-  open_prs: 1
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/lab-system/actions/runs/24902833988
-  days_since_last_commit: 0
-- name: cas9-targeted-sequencing
-  default_branch: master
-  description: PacBio Cas9-enriched CYP2D6 targeted sequencing project; seeded from Yisang Kim thesis
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing
-  commits_in_window: 5
-  last_commit:
-    sha: 1e14972
-    message: 'readme: pin PDF + Pages badges to top for visibility'
-    when: '2026-04-24T17:26:34Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing/commit/1e14972298c49b0667d112a161c71618e2d6d6b3
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing/actions/runs/24739655458
-  days_since_last_commit: 0
-- name: nuclease-activity
-  default_branch: main
-  description: "Lab project coordination shell \u2014 see .project/ + CLAUDE.md"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/nuclease-activity
-  commits_in_window: 5
-  last_commit:
-    sha: f9df566
-    message: 'auto: rebuild report.pdf [skip ci]'
-    when: '2026-04-24T17:39:22Z'
-    author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/nuclease-activity/commit/f9df566e10e54d2d4b2572be51c2e276e3f2657e
-  open_issues: 0
-  open_prs: 0
-  ci_status: cancelled
-  ci_url: https://github.com/Single-Molecule-Sequencing/nuclease-activity/actions/runs/24903289787
-  days_since_last_commit: 0
-- name: golden-gate
-  default_branch: main
-  description: "Lab project coordination shell \u2014 see .project/ + CLAUDE.md"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/golden-gate
-  commits_in_window: 5
-  last_commit:
-    sha: d3d065c
-    message: 'readme: swap build-status badge for direct-PDF badge'
-    when: '2026-04-24T17:37:23Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/golden-gate/commit/d3d065cb62d6ed438d1fa4ff057510cbb49d53e4
-  open_issues: 0
-  open_prs: 0
-  ci_status: failure
-  ci_url: https://github.com/Single-Molecule-Sequencing/golden-gate/actions/runs/24903097489
-  days_since_last_commit: 0
-- name: smaseq
-  default_branch: main
-  description: "Lab project coordination shell \u2014 see .project/ + CLAUDE.md"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/smaseq
-  commits_in_window: 5
-  last_commit:
-    sha: 47d6fd6
-    message: 'auto: rebuild report.pdf [skip ci]'
-    when: '2026-04-24T17:39:28Z'
-    author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/smaseq/commit/47d6fd6ba77370078a0f729505d6cf8fb20f2e9d
-  open_issues: 0
-  open_prs: 0
-  ci_status: cancelled
-  ci_url: https://github.com/Single-Molecule-Sequencing/smaseq/actions/runs/24903287845
-  days_since_last_commit: 0
-- name: adaptive-sampling
-  default_branch: main
-  description: "Lab project coordination shell \u2014 see .project/ + CLAUDE.md"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/adaptive-sampling
-  commits_in_window: 5
-  last_commit:
-    sha: acb738a
-    message: 'auto: rebuild report.pdf [skip ci]'
-    when: '2026-04-24T17:39:45Z'
-    author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/adaptive-sampling/commit/acb738a2ca64913fcf61ff11cd5d6e6b51fbab0c
-  open_issues: 0
-  open_prs: 0
-  ci_status: cancelled
-  ci_url: https://github.com/Single-Molecule-Sequencing/adaptive-sampling/actions/runs/24903288840
-  days_since_last_commit: 0
-- name: lab-math
-  default_branch: main
-  description: "Lab project coordination shell \u2014 see .project/ + CLAUDE.md"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-math
-  commits_in_window: 5
-  last_commit:
-    sha: 5b1075b
-    message: 'auto: rebuild report.pdf [skip ci]'
-    when: '2026-04-24T17:36:27Z'
-    author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/lab-math/commit/5b1075bdd13e6cd963ee9ecc16729050fdb8772c
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/lab-math/actions/runs/24903155211
-  days_since_last_commit: 0
-- name: fine-tuning
-  default_branch: main
-  description: "Lab project coordination shell \u2014 see .project/ + CLAUDE.md"
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/fine-tuning
-  commits_in_window: 5
-  last_commit:
-    sha: 37b55c4
-    message: 'auto: rebuild report.pdf [skip ci]'
-    when: '2026-04-24T17:39:35Z'
-    author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/fine-tuning/commit/37b55c4c7f27e227a797d4d152d7bcff20d2c6c8
-  open_issues: 0
-  open_prs: 0
-  ci_status: cancelled
-  ci_url: https://github.com/Single-Molecule-Sequencing/fine-tuning/actions/runs/24903290825
-  days_since_last_commit: 0
-- name: runge-website
-  default_branch: main
-  description: Runge author website - infrastructure repo with GitHub Pages deploy, visual-diff CI, and
-    version archives
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/runge-website
-  commits_in_window: 5
-  last_commit:
-    sha: d1e494f
-    message: "v2.1.18: fix tall social tiles \u2014 add height:auto to gallery-grid img rules"
-    when: '2026-04-18T09:48:58Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/runge-website/commit/d1e494fada293d00cb17e3ff9830f8a0261e4c90
-  open_issues: 0
-  open_prs: 19
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/runge-website/actions/runs/24602093129
-  days_since_last_commit: 6
 - name: fragment-viewer
   default_branch: main
   description: Interactive CE viewer + Cas9 cut-product predictor for the Athey lab fluorescent-adapter
@@ -340,106 +48,6 @@ repos:
   ci_status: success
   ci_url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/actions/runs/24902829803
   days_since_last_commit: 0
-- name: pacbio-cas9-walkthrough
-  default_branch: main
-  description: Collaborator-facing walkthrough of the Athey Lab PacBio Cas9-targeted sequencing pipeline
-    (HiFi BAM -> pbmm2 -> /cas9-enrichment -> /cas9-panel-eval v1.6+v1.7).
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/pacbio-cas9-walkthrough
-  commits_in_window: 5
-  last_commit:
-    sha: b5239aa
-    message: 'v1.2.0: bootstrap cross-region CIs (anchored-c_l reimplementation)'
-    when: '2026-04-23T19:43:21Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/pacbio-cas9-walkthrough/commit/b5239aa725506eca4f319546a5190a238a1c92dd
-  open_issues: 0
-  open_prs: 0
-  ci_status: failure
-  ci_url: https://github.com/Single-Molecule-Sequencing/pacbio-cas9-walkthrough/actions/runs/24855249689
-  days_since_last_commit: 0
-- name: ont-registry
-  default_branch: main
-  description: Centralized registry for Oxford Nanopore sequencing experiments
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/ont-registry
-  commits_in_window: 3
-  last_commit:
-    sha: f3deefd
-    message: 'enrich: apply governance fields to 18 newly-loadable experiments'
-    when: '2026-04-18T02:10:49Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/ont-registry/commit/f3deefdbac4a055655e740740e5c61d08530c148
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/ont-registry/actions/runs/24594705562
-  days_since_last_commit: 6
-- name: SMS_Textbook
-  default_branch: main
-  description: ''
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook
-  commits_in_window: 2
-  last_commit:
-    sha: 346bdde
-    message: 'readme: pin site + issues badges to top for visibility'
-    when: '2026-04-24T17:26:58Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/commit/346bdde34b4f6c2a0d38db07dd9ab9bd2bce451c
-  open_issues: 1
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 0
-- name: lab-agent
-  default_branch: main
-  description: "Private Chief-of-Staff Agent for gregfar@umich.edu. Reads lab-papers (public) as source;\
-    \ acts on email/calendar/drive/wiki signals; drafts rec letters, paper edits, meeting follow-ups.\
-    \ Every output is a draft \u2014 zero auto-send."
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-agent
-  commits_in_window: 2
-  last_commit:
-    sha: cc3362c
-    message: 'fix: load credentials/.env at import so ANTHROPIC_API_KEY actually reaches the SDK'
-    when: '2026-04-18T04:28:18Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/lab-agent/commit/cc3362ce67a923d09510c27695d71ff28aab952f
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/lab-agent/actions/runs/24597042310
-  days_since_last_commit: 6
-- name: SMS_infrastructure
-  default_branch: master
-  description: 'Core infrastructure: schemas, validation, templates, and automation for SMS Lab'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/SMS_infrastructure
-  commits_in_window: 1
-  last_commit:
-    sha: ce70aea
-    message: 'docs: Auto-update wiki exports [skip ci]'
-    when: '2026-04-19T00:22:01Z'
-    author: actions-user
-    url: https://github.com/Single-Molecule-Sequencing/SMS_infrastructure/commit/ce70aeab773dd49e442436cb4708dd9643acb08d
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/SMS_infrastructure/actions/runs/24617132605
-  days_since_last_commit: 5
-- name: pharmvar-pangenome-pipeline
-  default_branch: main
-  description: ''
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/pharmvar-pangenome-pipeline
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: failure
-  ci_url: https://github.com/Single-Molecule-Sequencing/pharmvar-pangenome-pipeline/actions/runs/16289004285
-  days_since_last_commit: 283
 - name: dorado-bench
   default_branch: main
   description: A benchmarking effort of various doraro models for the SMS pipeline
@@ -452,19 +60,6 @@ repos:
   ci_status: unknown
   ci_url: null
   days_since_last_commit: 64
-- name: dorado-bench-interactive
-  default_branch: main
-  description: Interactive basecalling toolkit for Oxford Nanopore data on University of Michigan HPC
-    clusters
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/dorado-bench-interactive
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 161
 - name: End_Reason_nf
   default_branch: main
   description: ''
@@ -477,54 +72,6 @@ repos:
   ci_status: failure
   ci_url: https://github.com/Single-Molecule-Sequencing/End_Reason_nf/actions/runs/19545795692
   days_since_last_commit: 155
-- name: sms-core-math
-  default_branch: master
-  description: Mathematical knowledge registry - formal definitions, theorems, and formulas
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/sms-core-math
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: failure
-  ci_url: https://github.com/Single-Molecule-Sequencing/sms-core-math/actions/runs/19552396466
-  days_since_last_commit: 154
-- name: paper-end-reason
-  default_branch: master
-  description: 'Manuscript: End Reason Analysis for Nanopore Sequencing Runs'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/paper-end-reason
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 154
-- name: paper-singapore-cohort
-  default_branch: master
-  description: Singapore breast cancer cohort pharmacogenomics study
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/paper-singapore-cohort
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 64
-- name: sms-pipeline
-  default_branch: master
-  description: Computational pipeline for signal processing, segmentation, and basecalling
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/sms-pipeline
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 128
 - name: PGx-prep
   default_branch: main
   description: Preparatory demultiplex algorithms and HPC+Slurm solutions on BAM files for the ONT PGx
@@ -562,67 +109,6 @@ repos:
   ci_status: unknown
   ci_url: null
   days_since_last_commit: 3
-- name: endreason_manuscript
-  default_branch: main
-  description: End Reason Classification for Quality Control in Oxford Nanopore Sequencing - Manuscript
-    Repository
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/endreason_manuscript
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: failure
-  ci_url: https://github.com/Single-Molecule-Sequencing/endreason_manuscript/actions/runs/20596925677
-  days_since_last_commit: 115
-- name: Reference_Fasta_Generator
-  default_branch: main
-  description: 'Creates reference fasta files for sequencing '
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/Reference_Fasta_Generator
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 11
-- name: seq-registry
-  default_branch: master
-  description: 'Lab sequence registry: store, query, and analyse DNA/RNA oligos and duplexes'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/seq-registry
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/seq-registry/actions/runs/22302587043
-  days_since_last_commit: 60
-- name: sma-seq-workspace
-  default_branch: main
-  description: 'SMA-seq analysis workspace: CLC demux, BAM subsampling, IGV reports, reference sequences'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/sma-seq-workspace
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 11
-- name: smaseq-qc
-  default_branch: main
-  description: 'SMA-seq QC Python package: alignment, visualization, Golden Gate pipeline, HPC runner'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/smaseq-qc
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 59
 - name: barbell
   default_branch: master
   description: Extremely fast and accurate Nanopore demultiplexing
@@ -635,19 +121,6 @@ repos:
   ci_status: unknown
   ci_url: null
   days_since_last_commit: 51
-- name: monica_thesis
-  default_branch: main
-  description: 'Monica J. Wolfe PhD Dissertation: Single-Molecule Long-read Sequencing for Structurally
-    Complex Genomic Loci (Athey Lab, UMich 2026)'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/monica_thesis
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/monica_thesis/actions/runs/23325650041
-  days_since_last_commit: 35
 - name: CypScope-prep
   default_branch: main
   description: Preparatory FastQ extraction and alignment on per-sample BAM files for CypScope
@@ -672,369 +145,68 @@ repos:
   ci_status: unknown
   ci_url: null
   days_since_last_commit: 38
-- name: Wolfe_Thesis
-  default_branch: main
-  description: '"PhD-Dissertation-Single-Molecule-Long-read-Sequencing-Monica-Wolfe-UMich"'
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis/actions/runs/23372860833
-  days_since_last_commit: 34
-- name: SMA_Seq_Figures
-  default_branch: main
-  description: Graphs and Visualization from ONT SMA Seq DB files
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/SMA_Seq_Figures
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/SMA_Seq_Figures/actions/runs/23350034633
-  days_since_last_commit: 35
-- name: lab-context
-  default_branch: main
-  description: ''
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-context
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 12
-- name: lab-experiments
-  default_branch: main
-  description: Unified event-sourced experiment registry (ONT + PacBio + Illumina). v1 spec in docs/superpowers/specs/.
-  visibility: private
-  url: https://github.com/Single-Molecule-Sequencing/lab-experiments
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/lab-experiments/actions/runs/24399574482
-  days_since_last_commit: 10
 recent_commits:
-- repo: adaptive-sampling
-  sha: acb738a
-  author: github-actions[bot]
-  when: '2026-04-24T17:39:45Z'
-  message: 'auto: rebuild report.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/adaptive-sampling/commit/acb738a2ca64913fcf61ff11cd5d6e6b51fbab0c
-- repo: fine-tuning
-  sha: 37b55c4
-  author: github-actions[bot]
-  when: '2026-04-24T17:39:35Z'
-  message: 'auto: rebuild report.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/fine-tuning/commit/37b55c4c7f27e227a797d4d152d7bcff20d2c6c8
-- repo: smaseq
-  sha: 47d6fd6
-  author: github-actions[bot]
-  when: '2026-04-24T17:39:28Z'
-  message: 'auto: rebuild report.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/smaseq/commit/47d6fd6ba77370078a0f729505d6cf8fb20f2e9d
-- repo: nuclease-activity
-  sha: f9df566
-  author: github-actions[bot]
-  when: '2026-04-24T17:39:22Z'
-  message: 'auto: rebuild report.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/nuclease-activity/commit/f9df566e10e54d2d4b2572be51c2e276e3f2657e
-- repo: ont-ecosystem
-  sha: 63ac677
+- repo: single-molecule-sequencing.github.io
+  sha: 66c74e2
   author: gregfar
-  when: '2026-04-24T17:38:51Z'
-  message: 'report: add auto-built technical report (first draft)'
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/commit/63ac6779e6f34d4ddb83ad8a60dedd1448e633e5
-- repo: fine-tuning
-  sha: '3827089'
-  author: gregfar
-  when: '2026-04-24T17:37:32Z'
-  message: 'report: add auto-built project report (first draft)'
-  url: https://github.com/Single-Molecule-Sequencing/fine-tuning/commit/3827089552cc5072202d01f6d7afe67252ecba18
-- repo: nuclease-activity
-  sha: aa57e93
-  author: gregfar
-  when: '2026-04-24T17:37:31Z'
-  message: 'report: add auto-built project report (first draft)'
-  url: https://github.com/Single-Molecule-Sequencing/nuclease-activity/commit/aa57e93ef1abe037ac5693b716619ea2fcbd7f07
-- repo: adaptive-sampling
-  sha: fc5c5d2
-  author: gregfar
-  when: '2026-04-24T17:37:30Z'
-  message: 'report: add auto-built project report (first draft)'
-  url: https://github.com/Single-Molecule-Sequencing/adaptive-sampling/commit/fc5c5d22c295034818093b8a0a85d32d902874e4
-- repo: smaseq
-  sha: ca5575a
-  author: gregfar
-  when: '2026-04-24T17:37:28Z'
-  message: 'report: add auto-built project report (first draft)'
-  url: https://github.com/Single-Molecule-Sequencing/smaseq/commit/ca5575a8a8752d718f9997fc4b8ca79a5a366ae5
-- repo: paper-pgx-adaptive-sampling
-  sha: f368ce4
-  author: gregfar
-  when: '2026-04-24T17:37:23Z'
-  message: 'readme: swap build-status badge for direct-PDF badge'
-  url: https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling/commit/f368ce4500185909953bee44cbd26d10c0903648
-- repo: golden-gate
-  sha: d3d065c
-  author: gregfar
-  when: '2026-04-24T17:37:23Z'
-  message: 'readme: swap build-status badge for direct-PDF badge'
-  url: https://github.com/Single-Molecule-Sequencing/golden-gate/commit/d3d065cb62d6ed438d1fa4ff057510cbb49d53e4
-- repo: paper-pgx-adaptive-sampling
-  sha: fda7f07
-  author: github-actions[bot]
-  when: '2026-04-24T17:36:33Z'
-  message: 'auto: rebuild main.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling/commit/fda7f07822e0a6125228ed93e82863c7068c023c
-- repo: lab-math
-  sha: 5b1075b
-  author: github-actions[bot]
-  when: '2026-04-24T17:36:27Z'
-  message: 'auto: rebuild report.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/lab-math/commit/5b1075bdd13e6cd963ee9ecc16729050fdb8772c
-- repo: golden-gate
-  sha: ee3119a
-  author: github-actions[bot]
-  when: '2026-04-24T17:34:58Z'
-  message: 'auto: rebuild main.pdf [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/golden-gate/commit/ee3119ab80f9e6df6db10e2f534682dcc89cb73d
-- repo: lab-math
-  sha: 22899f7
-  author: gregfar
-  when: '2026-04-24T17:34:31Z'
-  message: 'report: add auto-built project report (first draft)'
-  url: https://github.com/Single-Molecule-Sequencing/lab-math/commit/22899f7c5a68f49cec87adc7166d1c9a8b155eb1
-- repo: paper-pgx-adaptive-sampling
-  sha: 886df10
-  author: gregfar
-  when: '2026-04-24T17:34:24Z'
-  message: 'fix: replace broken reusable-workflow call with self-contained PDF build + auto-commit'
-  url: https://github.com/Single-Molecule-Sequencing/paper-pgx-adaptive-sampling/commit/886df101419988b78e04d53e00d1941638059343
-- repo: golden-gate
-  sha: 224f1ee
-  author: gregfar
-  when: '2026-04-24T17:33:06Z'
-  message: 'fix: commit built main.pdf back to main branch'
-  url: https://github.com/Single-Molecule-Sequencing/golden-gate/commit/224f1ee2c5026a0d14a05609a96a4af766555d3e
-- repo: Wolfe_Thesis_final
-  sha: bec0ba2
-  author: github-actions[bot]
-  when: '2026-04-24T17:30:07Z'
-  message: Update README with latest build info [skip ci]
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/commit/bec0ba2ab6bf5d9e1c4d5a9df1b8e870ea620d66
-- repo: Wolfe_Thesis_final
-  sha: ba91568
-  author: github-actions[bot]
-  when: '2026-04-24T17:30:05Z'
-  message: Auto-update compiled thesis PDF [skip ci]
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/commit/ba91568cb95a0276d93c580a75f0f1322ba4e5f9
-- repo: SMS_Textbook
-  sha: 346bdde
-  author: gregfar
-  when: '2026-04-24T17:26:58Z'
-  message: 'readme: pin site + issues badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/commit/346bdde34b4f6c2a0d38db07dd9ab9bd2bce451c
-- repo: lab-system
-  sha: 2b10b24
-  author: gregfar
-  when: '2026-04-24T17:26:57Z'
-  message: 'readme: pin site + issues badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/lab-system/commit/2b10b24b5d7b414d9a6e7ad9747ebd13b95db6bd
-- repo: lab-papers
-  sha: 8baa529
-  author: gregfar
-  when: '2026-04-24T17:26:56Z'
-  message: 'readme: pin site + issues badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/lab-papers/commit/8baa5294b8ef5242f27a1d42e69aa2899470f920
-- repo: lab-wiki
-  sha: 07595ef
-  author: gregfar
-  when: '2026-04-24T17:26:52Z'
-  message: 'readme: pin site + issues badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/lab-wiki/commit/07595ef4e69189e90d087adb70714a68c49f48d2
-- repo: AtheyLab-Website
-  sha: 44aaaf5
-  author: gregfar
-  when: '2026-04-24T17:26:50Z'
-  message: 'readme: pin site + issues badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/AtheyLab-Website/commit/44aaaf5539211900f13dfc96617bef41caff90a5
+  when: '2026-04-24T17:42:56Z'
+  message: "feat: lab pulse dashboard \u2014 nightly org-wide activity digest"
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/66c74e2e673995ebd35133728441e5736a819d62
 - repo: fragment-viewer
   sha: afaede9
   author: gregfar
   when: '2026-04-24T17:26:49Z'
   message: 'readme: pin site + issues badges to top for visibility'
   url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/afaede9894ae61e662420acb21e8148b724ad730
-- repo: ont-ecosystem
-  sha: 8765b72
+- repo: fragment-viewer
+  sha: 08cb2e1
   author: gregfar
-  when: '2026-04-24T17:26:48Z'
-  message: 'readme: pin site + issues badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/commit/8765b727184f63018ee5d9c9d80c1aa47bd78c13
-- repo: Wolfe_Thesis_final
-  sha: d8ebf34
+  when: '2026-04-23T19:34:51Z'
+  message: 'test: add source-level regression tests for gh#18/gh#19/gh#20'
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/08cb2e1d710864c6828e7dfe2001794f0a4eb62a
+- repo: single-molecule-sequencing.github.io
+  sha: 654df78
   author: gregfar
-  when: '2026-04-24T17:26:42Z'
-  message: 'readme: pin PDF + Pages badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/commit/d8ebf34136158e25de4fcf04168577cb9608a6eb
-- repo: golden-gate
-  sha: '8205589'
+  when: '2026-04-23T19:33:05Z'
+  message: Add sitemap.xml and robots.txt
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/654df78e8583d430081f119a33a6e486461bf59f
+- repo: single-molecule-sequencing.github.io
+  sha: ccf0553
   author: gregfar
-  when: '2026-04-24T17:26:37Z'
-  message: 'readme: pin PDF + Pages badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/golden-gate/commit/8205589248b58932795d0a8025d2a3f6e3843486
-- repo: SMAseq_paper
-  sha: 6380c33
+  when: '2026-04-23T19:11:32Z'
+  message: 'Recast hub as public-safe: research themes, open software, public resources'
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/ccf0553c969ba35ac3ff4ded01a65c6ccf50250f
+- repo: fragment-viewer
+  sha: 9bb9278
   author: gregfar
-  when: '2026-04-24T17:26:35Z'
-  message: 'readme: pin PDF + Pages badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/SMAseq_paper/commit/6380c33863ef54e5db46bf0647804e922d5bbd5c
-- repo: cas9-targeted-sequencing
-  sha: 1e14972
+  when: '2026-04-23T18:45:07Z'
+  message: 'chore(version): bump to 0.29.0 (matches v0.29.0 commit 407b75b)'
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/9bb9278386437e9bb1c54ac1844b1ae019a68ed6
+- repo: fragment-viewer
+  sha: 407b75b
   author: gregfar
-  when: '2026-04-24T17:26:34Z'
-  message: 'readme: pin PDF + Pages badges to top for visibility'
-  url: https://github.com/Single-Molecule-Sequencing/cas9-targeted-sequencing/commit/1e14972298c49b0667d112a161c71618e2d6d6b3
+  when: '2026-04-23T18:44:52Z'
+  message: "v0.29.0 \u2014 close gh#21, gh#22, gh#23 (with v0.28.1 carryover for #18/19/20)"
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/407b75b8a7dfb6ab9e77a8aec83313cd15204de2
+- repo: single-molecule-sequencing.github.io
+  sha: d7bac2a
+  author: gregfar
+  when: '2026-04-21T18:33:10Z'
+  message: 'content(hub): point lab-wiki to new Pages landing'
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/d7bac2ab5bce835f7538250b7e85265d72494691
+- repo: single-molecule-sequencing.github.io
+  sha: 0fb7588
+  author: gregfar
+  when: '2026-04-21T18:26:04Z'
+  message: 'feat(hub): data-drive paper/project/infra cards from _data/papers.yml'
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/0fb7588c0267f335e8409e950ca1fd4fe3d1a651
+- repo: fragment-viewer
+  sha: 5ccc102
+  author: gregfar
+  when: '2026-04-21T17:59:23Z'
+  message: 'docs(readme): link to Athey Lab hub'
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/5ccc1029b67bfb553ccbbae44d92b247355466b9
 recent_issues:
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 46
-  title: Formatting revisions
-  state: open
-  author: gregfar
-  created_at: '2026-04-06T15:44:14Z'
-  updated_at: '2026-04-24T17:22:15Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/46
-- repo: End_Reason_Manuscript
-  kind: issue
-  number: 48
-  title: Extract real plasmid and internal run data from Great Lakes HPC
-  state: open
-  author: gregfar
-  created_at: '2025-12-30T01:14:54Z'
-  updated_at: '2026-04-24T17:22:14Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/End_Reason_Manuscript/issues/48
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 36
-  title: Read through the current version and find possible missing citations. Ask before implementing
-    them
-  state: open
-  author: gregfar
-  created_at: '2026-04-02T16:40:11Z'
-  updated_at: '2026-04-24T17:21:31Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/36
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 32
-  title: Fig1.3 needs citation
-  state: open
-  author: gregfar
-  created_at: '2026-04-02T16:36:56Z'
-  updated_at: '2026-04-24T17:21:30Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/32
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 20
-  title: Chapter 4 figure 4.13.
-  state: open
-  author: monicajean
-  created_at: '2026-03-31T02:18:28Z'
-  updated_at: '2026-04-24T17:21:29Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/20
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 19
-  title: chapter 4 figure 4.3
-  state: open
-  author: monicajean
-  created_at: '2026-03-31T02:16:33Z'
-  updated_at: '2026-04-24T17:21:28Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/19
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 18
-  title: chapter 4 figure 4.3
-  state: open
-  author: monicajean
-  created_at: '2026-03-31T02:16:08Z'
-  updated_at: '2026-04-24T17:21:27Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/18
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 10
-  title: chapter 2 figure 2.2
-  state: open
-  author: monicajean
-  created_at: '2026-03-31T00:01:17Z'
-  updated_at: '2026-04-24T17:21:26Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/10
-- repo: Wolfe_Thesis_final
-  kind: issue
-  number: 6
-  title: chapter 1 figures
-  state: open
-  author: monicajean
-  created_at: '2026-03-30T23:30:44Z'
-  updated_at: '2026-04-24T17:21:25Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/Wolfe_Thesis_final/issues/6
-- repo: lab-system
-  kind: issue
-  number: 14
-  title: Daily brief 2026-04-23
-  state: closed
-  author: gregfar
-  created_at: '2026-04-23T22:53:15Z'
-  updated_at: '2026-04-24T17:03:39Z'
-  closed_at: '2026-04-24T17:03:39Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-system/issues/14
-- repo: lab-system
-  kind: issue
-  number: 13
-  title: Daily brief 2026-04-23
-  state: closed
-  author: gregfar
-  created_at: '2026-04-23T22:12:07Z'
-  updated_at: '2026-04-24T17:03:38Z'
-  closed_at: '2026-04-24T17:03:38Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-system/issues/13
-- repo: lab-system
-  kind: issue
-  number: 15
-  title: Daily brief 2026-04-24
-  state: open
-  author: gregfar
-  created_at: '2026-04-24T11:54:51Z'
-  updated_at: '2026-04-24T11:54:51Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-system/issues/15
 - repo: fragment-viewer
   kind: issue
   number: 24
@@ -1047,205 +219,252 @@ recent_issues:
   closed_at: null
   merged_at: null
   url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/24
-- repo: ont-ecosystem
+- repo: fragment-viewer
   kind: issue
-  number: 153
-  title: Registry has 55% broken-link locations; AGC pipeline data appears deleted/moved
-  state: open
-  author: gregfar
-  created_at: '2026-04-14T12:53:16Z'
-  updated_at: '2026-04-23T19:44:43Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/issues/153
-- repo: lab-system
-  kind: issue
-  number: 8
-  title: 'lab-query router: does not ingest ~/.ont-registry/experiments.yaml'
+  number: 23
+  title: '[bug] Batch Heatmap Displayed and Exported Images Scales Differently'
   state: closed
-  author: gregfar
-  created_at: '2026-04-14T11:13:32Z'
-  updated_at: '2026-04-23T19:21:32Z'
-  closed_at: '2026-04-23T19:21:32Z'
+  author: Vanishborn
+  created_at: '2026-04-18T23:49:56Z'
+  updated_at: '2026-04-23T18:45:53Z'
+  closed_at: '2026-04-23T18:45:53Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-system/issues/8
-- repo: ont-ecosystem
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/23
+- repo: fragment-viewer
   kind: issue
-  number: 150
-  title: 'ont_experiments.py remove: doesn''t append a ''remove'' event to audit_log.yaml'
+  number: 22
+  title: '[bug] [UI] Lab tools GitHub links all 404'
   state: closed
-  author: gregfar
-  created_at: '2026-04-14T11:12:55Z'
-  updated_at: '2026-04-23T19:18:41Z'
-  closed_at: '2026-04-23T19:18:41Z'
+  author: Vanishborn
+  created_at: '2026-04-18T23:38:50Z'
+  updated_at: '2026-04-23T18:45:51Z'
+  closed_at: '2026-04-23T18:45:51Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/issues/150
-- repo: lab-papers
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/22
+- repo: fragment-viewer
   kind: issue
-  number: 10
-  title: wiki_watcher.py commits + pushes on whatever branch is checked out, not main
+  number: 21
+  title: '[critical] [bug] [cosmetic] [consistency] Graphical design elements in figures not in sync with
+    cosmetic problems'
   state: closed
-  author: gregfar
-  created_at: '2026-04-18T01:26:30Z'
-  updated_at: '2026-04-23T19:18:09Z'
-  closed_at: '2026-04-23T19:18:09Z'
+  author: Vanishborn
+  created_at: '2026-04-18T23:35:29Z'
+  updated_at: '2026-04-23T18:45:50Z'
+  closed_at: '2026-04-23T18:45:50Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-papers/issues/10
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/21
+- repo: fragment-viewer
   kind: issue
   number: 20
-  title: "\U0001F4CB Weekly Content Audit - 2026-03-22"
+  title: "[bug] [cosmetic] Construct architecture and End-structure editor \xB7 dA-tailability red cut\
+    \ box not uniform and \"CUT\" text not centered horizontally inside"
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-03-22T00:38:54Z'
-  updated_at: '2026-04-23T19:17:47Z'
-  closed_at: '2026-04-23T19:17:47Z'
+  author: Vanishborn
+  created_at: '2026-04-18T23:15:12Z'
+  updated_at: '2026-04-23T18:45:48Z'
+  closed_at: '2026-04-23T18:45:48Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/20
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/20
+- repo: fragment-viewer
   kind: issue
   number: 19
-  title: "\U0001F4CB Weekly Content Audit - 2026-03-01"
+  title: '[bug] [cosmetic] Post-dA-tailing molecular products + adapter ligation sub title text pushing
+    Export button into a weird shape'
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-03-01T00:40:47Z'
-  updated_at: '2026-04-23T19:17:45Z'
-  closed_at: '2026-04-23T19:17:45Z'
+  author: Vanishborn
+  created_at: '2026-04-18T23:12:10Z'
+  updated_at: '2026-04-23T18:45:46Z'
+  closed_at: '2026-04-23T18:45:46Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/19
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/19
+- repo: fragment-viewer
   kind: issue
   number: 18
-  title: "\U0001F4CB Weekly Content Audit - 2026-02-15"
+  title: '[bug] [cosmetic] Construct architecture Export button covering top right of figure'
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-02-15T00:39:21Z'
-  updated_at: '2026-04-23T19:17:43Z'
-  closed_at: '2026-04-23T19:17:43Z'
+  author: Vanishborn
+  created_at: '2026-04-18T23:09:29Z'
+  updated_at: '2026-04-23T18:45:45Z'
+  closed_at: '2026-04-23T18:45:45Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/18
-- repo: SMS_Textbook
-  kind: issue
-  number: 17
-  title: "\U0001F4CB Weekly Content Audit - 2026-02-08"
-  state: closed
-  author: github-actions[bot]
-  created_at: '2026-02-08T00:46:05Z'
-  updated_at: '2026-04-23T19:17:41Z'
-  closed_at: '2026-04-23T19:17:41Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/17
-- repo: SMS_Textbook
-  kind: issue
-  number: 16
-  title: "\U0001F4CB Weekly Content Audit - 2026-02-01"
-  state: closed
-  author: github-actions[bot]
-  created_at: '2026-02-01T00:41:24Z'
-  updated_at: '2026-04-23T19:17:40Z'
-  closed_at: '2026-04-23T19:17:39Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/16
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/18
+- repo: fragment-viewer
   kind: issue
   number: 15
-  title: "\U0001F4CB Weekly Content Audit - 2026-01-25"
+  title: '[feat] Dark mode viewing toggle'
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-01-25T00:34:38Z'
-  updated_at: '2026-04-23T19:17:38Z'
-  closed_at: '2026-04-23T19:17:38Z'
+  author: Vanishborn
+  created_at: '2026-04-18T21:59:45Z'
+  updated_at: '2026-04-18T23:26:53Z'
+  closed_at: '2026-04-18T23:26:53Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/15
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/15
+- repo: fragment-viewer
+  kind: issue
+  number: 16
+  title: '[refactor] Complete monolith extraction: `FragmentViewer.jsx` to pure wiring'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T22:33:08Z'
+  updated_at: '2026-04-18T23:21:53Z'
+  closed_at: '2026-04-18T23:21:53Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/16
+- repo: fragment-viewer
+  kind: issue
+  number: 17
+  title: '[bug] Blank page on live site: missing imports in split components'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T22:52:49Z'
+  updated_at: '2026-04-18T23:03:58Z'
+  closed_at: '2026-04-18T23:03:58Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/17
+- repo: fragment-viewer
   kind: issue
   number: 14
-  title: "\U0001F4CB Weekly Content Audit - 2026-01-18"
+  title: '[critical] [hygiene] [docs] Scrub lab-internal content from public repo'
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-01-18T00:33:32Z'
-  updated_at: '2026-04-23T19:17:36Z'
-  closed_at: '2026-04-23T19:17:36Z'
+  author: Vanishborn
+  created_at: '2026-04-18T21:47:30Z'
+  updated_at: '2026-04-18T23:03:56Z'
+  closed_at: '2026-04-18T23:03:56Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/14
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/14
+- repo: fragment-viewer
   kind: issue
   number: 13
-  title: "\U0001F4CB Weekly Content Audit - 2026-01-11"
+  title: '[refactor] [big] Split `FragmentViewer.jsx`'
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-01-11T00:33:48Z'
-  updated_at: '2026-04-23T19:17:35Z'
-  closed_at: '2026-04-23T19:17:35Z'
+  author: Vanishborn
+  created_at: '2026-04-18T20:34:32Z'
+  updated_at: '2026-04-18T22:23:29Z'
+  closed_at: '2026-04-18T22:23:29Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/13
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/13
+- repo: fragment-viewer
   kind: issue
   number: 12
-  title: "\U0001F4CB Weekly Content Audit - 2026-01-04"
+  title: '[hygiene] Shrink `skills/clc-visualizations/examples/electropherogram_V059_3-2_with_species.png`'
   state: closed
-  author: github-actions[bot]
-  created_at: '2026-01-04T00:34:12Z'
-  updated_at: '2026-04-23T19:17:33Z'
-  closed_at: '2026-04-23T19:17:33Z'
+  author: Vanishborn
+  created_at: '2026-04-18T20:32:23Z'
+  updated_at: '2026-04-18T20:44:45Z'
+  closed_at: '2026-04-18T20:44:45Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/12
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/12
+- repo: fragment-viewer
   kind: issue
   number: 11
-  title: "\U0001F4CB Weekly Content Audit - 2025-12-28"
+  title: '[docs] ARCHITECTURE.md is out of date'
   state: closed
-  author: github-actions[bot]
-  created_at: '2025-12-28T00:34:19Z'
-  updated_at: '2026-04-23T19:17:31Z'
-  closed_at: '2026-04-23T19:17:31Z'
+  author: Vanishborn
+  created_at: '2026-04-18T20:29:03Z'
+  updated_at: '2026-04-18T20:44:45Z'
+  closed_at: '2026-04-18T20:44:45Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/11
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/11
+- repo: fragment-viewer
   kind: issue
   number: 10
-  title: "\U0001F4CB Weekly Content Audit - 2025-12-21"
+  title: '[docs] CHANGELOG.md fell off around v0.7'
   state: closed
-  author: github-actions[bot]
-  created_at: '2025-12-21T00:32:44Z'
-  updated_at: '2026-04-23T19:17:30Z'
-  closed_at: '2026-04-23T19:17:30Z'
+  author: Vanishborn
+  created_at: '2026-04-18T20:27:23Z'
+  updated_at: '2026-04-18T20:44:45Z'
+  closed_at: '2026-04-18T20:44:45Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/10
-- repo: SMS_Textbook
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/10
+- repo: fragment-viewer
+  kind: issue
+  number: 9
+  title: '[refactor] `classifyPeaks` takes 13 positional args'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T20:26:04Z'
+  updated_at: '2026-04-18T20:44:45Z'
+  closed_at: '2026-04-18T20:44:45Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/9
+- repo: fragment-viewer
+  kind: issue
+  number: 8
+  title: '[hygiene] Delete `scripts/init_repo.sh`'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T20:24:50Z'
+  updated_at: '2026-04-18T20:44:44Z'
+  closed_at: '2026-04-18T20:44:44Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/8
+- repo: fragment-viewer
+  kind: issue
+  number: 7
+  title: '[data] `data/fa_data.json` is stale (10-sample legacy dataset)'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T20:23:56Z'
+  updated_at: '2026-04-18T20:33:02Z'
+  closed_at: '2026-04-18T20:33:02Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/7
+- repo: fragment-viewer
+  kind: issue
+  number: 6
+  title: '[critical] [docs] [privacy] Strip lab-internal paths + identifiers from public docs'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T20:21:44Z'
+  updated_at: '2026-04-18T20:33:01Z'
+  closed_at: '2026-04-18T20:33:01Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/6
+- repo: fragment-viewer
+  kind: issue
+  number: 5
+  title: "[bug] [test] `tests/fsa_parser.test.mjs` hardcodes a WSL-local path \xB7 `P0` `test`"
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T20:17:11Z'
+  updated_at: '2026-04-18T20:33:01Z'
+  closed_at: '2026-04-18T20:33:01Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/5
+- repo: fragment-viewer
+  kind: issue
+  number: 4
+  title: '[bug] Stale `results` memo on drag-drop ingest'
+  state: closed
+  author: Vanishborn
+  created_at: '2026-04-18T20:15:33Z'
+  updated_at: '2026-04-18T20:33:01Z'
+  closed_at: '2026-04-18T20:33:01Z'
+  merged_at: null
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/4
+- repo: fragment-viewer
   kind: issue
   number: 3
-  title: "\U0001F4CB Weekly Content Audit - 2025-12-14"
+  title: '[bug] [ui] Collapse four drifted dye-color palettes into one source'
   state: closed
-  author: github-actions[bot]
-  created_at: '2025-12-14T12:41:12Z'
-  updated_at: '2026-04-23T19:17:28Z'
-  closed_at: '2026-04-23T19:17:28Z'
+  author: Vanishborn
+  created_at: '2026-04-18T20:13:13Z'
+  updated_at: '2026-04-18T20:33:00Z'
+  closed_at: '2026-04-18T20:33:00Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/SMS_Textbook/issues/3
-- repo: ont-ecosystem
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/3
+- repo: fragment-viewer
   kind: issue
-  number: 154
-  title: 'health-check: `find_dorado` marks unrunnable Linux-x64 binary as PASS on Windows'
+  number: 2
+  title: '[bug] `classifyPeaks` declares an unused `grnaCatalog` parameter'
   state: closed
-  author: gregfar
-  created_at: '2026-04-15T02:27:33Z'
-  updated_at: '2026-04-23T19:16:11Z'
-  closed_at: '2026-04-23T19:16:11Z'
+  author: Vanishborn
+  created_at: '2026-04-18T20:11:46Z'
+  updated_at: '2026-04-18T20:33:00Z'
+  closed_at: '2026-04-18T20:33:00Z'
   merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/issues/154
+  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/2
 recent_prs:
-- repo: lab-system
-  kind: pr
-  number: 12
-  title: 'feat(phase-b): template + CLI + systemd + E2E (Tasks 6-9)'
-  state: open
-  author: gregfar
-  created_at: '2026-04-14T12:43:41Z'
-  updated_at: '2026-04-23T19:37:26Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-system/pull/12
 - repo: ONT-SMA-seq
   kind: pr
   number: 6
@@ -1257,28 +476,6 @@ recent_prs:
   closed_at: null
   merged_at: null
   url: https://github.com/Single-Molecule-Sequencing/ONT-SMA-seq/pull/6
-- repo: lab-papers
-  kind: pr
-  number: 12
-  title: 'Weekly reference audit: 0 errors, 0 warnings'
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-20T13:32:52Z'
-  updated_at: '2026-04-20T13:32:53Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-papers/pull/12
-- repo: ont-ecosystem
-  kind: pr
-  number: 155
-  title: 'chore(ci): bump actions/checkout from 4 to 6 in the actions group'
-  state: closed
-  author: dependabot[bot]
-  created_at: '2026-04-20T11:40:17Z'
-  updated_at: '2026-04-20T11:40:38Z'
-  closed_at: '2026-04-20T11:40:30Z'
-  merged_at: '2026-04-20T11:40:30Z'
-  url: https://github.com/Single-Molecule-Sequencing/ont-ecosystem/pull/155
 - repo: fragment-viewer
   kind: pr
   number: 1
@@ -1290,311 +487,11 @@ recent_prs:
   closed_at: null
   merged_at: null
   url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/1
-- repo: runge-website
-  kind: pr
-  number: 19
-  title: Archive snapshot for v2.1.18
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T09:49:26Z'
-  updated_at: '2026-04-18T09:49:26Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/19
-- repo: lab-papers
-  kind: pr
-  number: 11
-  title: "walkthrough_helper \u2192 thin adapter + trigger-firing + list-coercion fixes"
-  state: closed
-  author: gregfar
-  created_at: '2026-04-18T09:26:29Z'
-  updated_at: '2026-04-18T09:46:41Z'
-  closed_at: '2026-04-18T09:46:39Z'
-  merged_at: '2026-04-18T09:46:39Z'
-  url: https://github.com/Single-Molecule-Sequencing/lab-papers/pull/11
-- repo: runge-website
-  kind: pr
-  number: 18
-  title: Archive snapshot for v2.1.17
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T08:41:04Z'
-  updated_at: '2026-04-18T08:41:04Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/18
-- repo: runge-website
-  kind: pr
-  number: 17
-  title: Archive snapshot for v2.1.16
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T08:02:58Z'
-  updated_at: '2026-04-18T08:02:58Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/17
-- repo: runge-website
-  kind: pr
-  number: 16
-  title: Archive snapshot for v2.1.15
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T07:54:03Z'
-  updated_at: '2026-04-18T07:54:03Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/16
-- repo: runge-website
-  kind: pr
-  number: 15
-  title: Archive snapshot for v2.1.14
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T07:27:16Z'
-  updated_at: '2026-04-18T07:27:16Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/15
-- repo: runge-website
-  kind: pr
-  number: 14
-  title: Archive snapshot for v2.1.13
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T07:03:10Z'
-  updated_at: '2026-04-18T07:03:10Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/14
-- repo: runge-website
-  kind: pr
-  number: 13
-  title: Archive snapshot for v2.1.12
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T06:28:20Z'
-  updated_at: '2026-04-18T06:28:20Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/13
-- repo: runge-website
-  kind: pr
-  number: 12
-  title: Archive snapshot for v2.1.11
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T06:10:58Z'
-  updated_at: '2026-04-18T06:10:58Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/12
-- repo: runge-website
-  kind: pr
-  number: 11
-  title: Archive snapshot for v2.1.10
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T05:49:06Z'
-  updated_at: '2026-04-18T05:49:06Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/11
-- repo: runge-website
-  kind: pr
-  number: 10
-  title: Archive snapshot for v2.1.9
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T05:45:47Z'
-  updated_at: '2026-04-18T05:45:47Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/10
-- repo: runge-website
-  kind: pr
-  number: 9
-  title: Archive snapshot for v2.1.8
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T04:40:05Z'
-  updated_at: '2026-04-18T04:40:05Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/9
-- repo: runge-website
-  kind: pr
-  number: 8
-  title: Archive snapshot for v2.1.7
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T04:01:38Z'
-  updated_at: '2026-04-18T04:01:38Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/8
-- repo: runge-website
-  kind: pr
-  number: 7
-  title: Archive snapshot for v2.1.6
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T02:51:33Z'
-  updated_at: '2026-04-18T02:51:33Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/7
-- repo: runge-website
-  kind: pr
-  number: 6
-  title: Archive snapshot for v2.1.5
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T02:38:47Z'
-  updated_at: '2026-04-18T02:38:47Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/6
-- repo: lab-papers
-  kind: pr
-  number: 9
-  title: 'fix(dashboard): count words + TODOs in markdown manuscripts too'
-  state: open
-  author: gregfar
-  created_at: '2026-04-14T13:03:22Z'
-  updated_at: '2026-04-18T02:35:19Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/lab-papers/pull/9
-- repo: runge-website
-  kind: pr
-  number: 5
-  title: Archive snapshot for v2.1.4
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T02:31:08Z'
-  updated_at: '2026-04-18T02:31:08Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/5
-- repo: runge-website
-  kind: pr
-  number: 4
-  title: Archive snapshot for v2.1.3
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T02:26:16Z'
-  updated_at: '2026-04-18T02:26:16Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/4
-- repo: runge-website
-  kind: pr
-  number: 3
-  title: Archive snapshot for v2.1.2
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T02:06:38Z'
-  updated_at: '2026-04-18T02:06:38Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/3
-- repo: runge-website
-  kind: pr
-  number: 2
-  title: Archive snapshot for v2.1.1
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T01:25:52Z'
-  updated_at: '2026-04-18T01:25:52Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/2
-- repo: runge-website
-  kind: pr
-  number: 1
-  title: Archive snapshot for v2.1.0
-  state: open
-  author: github-actions[bot]
-  created_at: '2026-04-18T00:46:53Z'
-  updated_at: '2026-04-18T01:12:52Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/runge-website/pull/1
-latest_releases:
-- repo: pacbio-cas9-walkthrough
-  tag: v1.2.0
-  name: "v1.2.0 \u2014 bootstrap cross-region CIs"
-  published_at: '2026-04-23T19:43:32Z'
-  url: https://github.com/Single-Molecule-Sequencing/pacbio-cas9-walkthrough/releases/tag/v1.2.0
-  prerelease: false
-- repo: pacbio-cas9-walkthrough
-  tag: v1.1.0
-  name: "v1.1.0 \u2014 redact, power_calc, failure-mode demo"
-  published_at: '2026-04-23T19:43:31Z'
-  url: https://github.com/Single-Molecule-Sequencing/pacbio-cas9-walkthrough/releases/tag/v1.1.0
-  prerelease: false
-- repo: pacbio-cas9-walkthrough
-  tag: v1.0.0
-  name: "v1.0.0 \u2014 first tagged release"
-  published_at: '2026-04-23T19:43:30Z'
-  url: https://github.com/Single-Molecule-Sequencing/pacbio-cas9-walkthrough/releases/tag/v1.0.0
-  prerelease: false
+latest_releases: []
 kg_snapshot: null
-paper_statuses:
-- kind: project
-  id: sma-seq
-  title: "Single-Molecule Accuracy Sequencing (SMA-seq) \u2014 Per-Read Error Measurement via Synthetic\
-    \ Molecular Barcodes"
-  status: active
-  lead: diya-kannappan
-- kind: project
-  id: pgx-adaptive-sampling
-  title: ONT Adaptive Sampling for Pharmacogene Targeting
-  status: active
-  lead: chloe-ziemelis
-- kind: project
-  id: wolfe-thesis
-  title: Wolfe doctoral thesis
-  status: unknown
-  lead: Wolfe M
-- kind: project
-  id: cas9-targeted-sequencing
-  title: Predicting Drug Metabolizer Phenotypes Accurately with PacBio Based Cas9 Targeted Sequencing
-    of Pharmacogenes
-  status: active
-  lead: chloe-ziemelis
-- kind: project
-  id: nuclease-activity
-  title: Programmable Nuclease Activity of Cas9
-  status: active
-  lead: rachel-case
-- kind: project
-  id: golden-gate
-  title: "Golden Gate Cloning Platform \u2014 Scarless Type-IIS Assembly of Arbitrary DNA Sequences"
-  status: active
-  lead: isaac-farnum
-- kind: project
-  id: pgx-golden-gate-extension
-  title: Extend the Golden Gate construct library to the nine other CPIC Tier-1 clinically-actionable
-    PGx pharmacogenes (CYP2D6 baseline + 9 uncovered, 10 total)
-  status: active
-  lead: isaac-farnum
-- kind: project
-  id: lab-math
-  title: Mathematical Foundations for Lab Methods
-  status: active
-  lead: pranjal-srivastava
-- kind: project
-  id: fine-tuning
-  title: Neural Network Fine-Tuning for Sequencing Applications
-  status: active
-  lead: shankar
-- kind: project
-  id: fragment-viewer
-  title: 'Fragment Viewer: CE Analysis for Cas9 Cleavage-Ligation-Cycling Assays'
-  status: active
-  lead: isaac-farnum
+paper_statuses: []
 unreachable_repos:
 - path: /repos/Single-Molecule-Sequencing/lab-wiki/contents/docs/kg-snapshots/latest/_toc.json
+  error: http-404
+- path: /repos/Single-Molecule-Sequencing/lab-papers/contents/papers.yaml
   error: http-404
