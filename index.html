@@ -15,6 +15,7 @@ title: Home
     <meta property="og:url" content="https://single-molecule-sequencing.github.io/">
     <meta name="twitter:card" content="summary">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/pulse.css">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
@@ -47,6 +48,34 @@ title: Home
                 </a>
             </div>
         </section>
+
+        {% if site.data.pulse %}
+        {% assign t = site.data.pulse.totals %}
+        <section class="grid-section">
+            <h2>Lab Pulse</h2>
+            <div class="pulse-strip">
+                <a class="pulse-tile small" href="{{ '/pulse/' | relative_url }}#stream">
+                    <span class="pulse-tile-num">{{ t.commits_past_week }}</span>
+                    <span class="pulse-tile-label">commits this week</span>
+                </a>
+                <a class="pulse-tile small" href="{{ '/pulse/' | relative_url }}#issues">
+                    <span class="pulse-tile-num">{{ t.issues_closed }}</span>
+                    <span class="pulse-tile-label">issues closed</span>
+                </a>
+                <a class="pulse-tile small" href="{{ '/pulse/' | relative_url }}#prs">
+                    <span class="pulse-tile-num">{{ t.prs_merged }}</span>
+                    <span class="pulse-tile-label">PRs merged</span>
+                </a>
+                <a class="pulse-tile small" href="{{ '/pulse/' | relative_url }}#kg">
+                    <span class="pulse-tile-num">{% if t.new_kg_entities %}+{{ t.new_kg_entities }}{% else %}-{% endif %}</span>
+                    <span class="pulse-tile-label">new KG entities</span>
+                </a>
+            </div>
+            <p class="pulse-strip-cta">
+                <a href="{{ '/pulse/' | relative_url }}">See full pulse &rarr;</a>
+            </p>
+        </section>
+        {% endif %}
 
         <section class="grid-section">
             <h2>Research Themes</h2>

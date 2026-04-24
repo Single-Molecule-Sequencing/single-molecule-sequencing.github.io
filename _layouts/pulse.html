@@ -1,0 +1,262 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lab Pulse — nightly activity dashboard for the Single-Molecule-Sequencing GitHub organization (Athey Lab).">
+    <title>Lab Pulse — Athey Lab</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lab Pulse — Athey Lab">
+    <meta property="og:description" content="Daily org-wide activity dashboard: commits, issues, PRs, releases, KG, and paper statuses.">
+    <meta property="og:url" content="https://single-molecule-sequencing.github.io/pulse/">
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/pulse.css' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon_io/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon_io/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon_io/favicon-16x16.png' | relative_url }}">
+</head>
+
+<body>
+    {% include header.html %}
+
+    {% assign p = site.data.pulse %}
+    {% assign t = p.totals %}
+
+    <div class="main-container pulse-container">
+
+        <section class="pulse-hero">
+            <h1>Lab Pulse</h1>
+            <p class="pulse-sub">Activity across the
+                <a href="https://github.com/{{ p.org }}">Single-Molecule-Sequencing</a>
+                organization over the last {{ p.window_days }} days.
+                Last refresh: <span class="pulse-when">{{ p.generated_at | slice: 0, 16 | replace: "T", " " }} UTC</span>.
+            </p>
+
+            <div class="pulse-tiles">
+                <a class="pulse-tile" href="#stream">
+                    <span class="pulse-tile-num">{{ t.commits_past_week }}</span>
+                    <span class="pulse-tile-label">commits</span>
+                </a>
+                <a class="pulse-tile" href="#issues">
+                    <span class="pulse-tile-num">{{ t.issues_opened }} / {{ t.issues_closed }}</span>
+                    <span class="pulse-tile-label">issues opened / closed</span>
+                </a>
+                <a class="pulse-tile" href="#prs">
+                    <span class="pulse-tile-num">{{ t.prs_opened }} / {{ t.prs_merged }}</span>
+                    <span class="pulse-tile-label">PRs opened / merged</span>
+                </a>
+                <a class="pulse-tile" href="#repos">
+                    <span class="pulse-tile-num">{{ t.repos_tracked }}</span>
+                    <span class="pulse-tile-label">repos tracked</span>
+                </a>
+                {% if t.new_kg_entities %}
+                <a class="pulse-tile" href="#kg">
+                    <span class="pulse-tile-num">+{{ t.new_kg_entities }}</span>
+                    <span class="pulse-tile-label">new KG entities</span>
+                </a>
+                {% endif %}
+            </div>
+        </section>
+
+        <section id="repos" class="grid-section">
+            <h2>Per-repo snapshot</h2>
+            <table class="pulse-table">
+                <thead>
+                    <tr>
+                        <th>Repo</th>
+                        <th class="num">Commits</th>
+                        <th class="num">Open issues</th>
+                        <th class="num">Open PRs</th>
+                        <th>CI</th>
+                        <th>Last commit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in p.repos %}
+                    <tr>
+                        <td>
+                            <a href="{{ r.url }}">{{ r.name }}</a>
+                            <span class="vis-tag vis-{{ r.visibility }}">{{ r.visibility }}</span>
+                        </td>
+                        <td class="num">{{ r.commits_in_window }}</td>
+                        <td class="num">{{ r.open_issues }}</td>
+                        <td class="num">{{ r.open_prs }}</td>
+                        <td>
+                            {% if r.ci_url %}
+                            <a href="{{ r.ci_url }}" class="ci-tag ci-{{ r.ci_status }}">{{ r.ci_status }}</a>
+                            {% else %}
+                            <span class="ci-tag ci-{{ r.ci_status }}">{{ r.ci_status }}</span>
+                            {% endif %}
+                        </td>
+                        <td class="cmt">
+                            {% if r.last_commit %}
+                            <a href="{{ r.last_commit.url }}" title="{{ r.last_commit.message }}">
+                                <code>{{ r.last_commit.sha }}</code>
+                            </a>
+                            <span class="meta">{{ r.last_commit.message | truncate: 60 }} — {{ r.last_commit.author }}
+                                ({% if r.days_since_last_commit == 0 %}today{% else %}{{ r.days_since_last_commit }}d ago{% endif %})</span>
+                            {% else %}
+                            <span class="meta">no commits in window</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+
+        <section id="stream" class="grid-section">
+            <h2>Recent commits</h2>
+            <ul class="pulse-stream">
+                {% for c in p.recent_commits %}
+                <li>
+                    <a class="pulse-repo" href="https://github.com/{{ p.org }}/{{ c.repo }}">{{ c.repo }}</a>
+                    <a class="pulse-sha" href="{{ c.url }}"><code>{{ c.sha }}</code></a>
+                    <span class="pulse-msg">{{ c.message }}</span>
+                    <span class="pulse-meta">{{ c.author }} · {{ c.when | slice: 0, 10 }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+
+        <section id="issues" class="grid-section">
+            <h2>Recent issues</h2>
+            {% if p.recent_issues.size == 0 %}
+            <p class="meta">No issue activity in the window.</p>
+            {% else %}
+            <ul class="pulse-stream">
+                {% for it in p.recent_issues limit:20 %}
+                <li>
+                    <a class="pulse-repo" href="https://github.com/{{ p.org }}/{{ it.repo }}">{{ it.repo }}</a>
+                    <a class="pulse-sha" href="{{ it.url }}">#{{ it.number }}</a>
+                    <span class="state state-{{ it.state }}">{{ it.state }}</span>
+                    <span class="pulse-msg">{{ it.title }}</span>
+                    <span class="pulse-meta">{{ it.author }} · {{ it.updated_at | slice: 0, 10 }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+
+        <section id="prs" class="grid-section">
+            <h2>Recent PRs</h2>
+            {% if p.recent_prs.size == 0 %}
+            <p class="meta">No PR activity in the window.</p>
+            {% else %}
+            <ul class="pulse-stream">
+                {% for pr in p.recent_prs limit:20 %}
+                <li>
+                    <a class="pulse-repo" href="https://github.com/{{ p.org }}/{{ pr.repo }}">{{ pr.repo }}</a>
+                    <a class="pulse-sha" href="{{ pr.url }}">#{{ pr.number }}</a>
+                    {% if pr.merged_at %}
+                    <span class="state state-merged">merged</span>
+                    {% else %}
+                    <span class="state state-{{ pr.state }}">{{ pr.state }}</span>
+                    {% endif %}
+                    <span class="pulse-msg">{{ pr.title }}</span>
+                    <span class="pulse-meta">{{ pr.author }} · {{ pr.updated_at | slice: 0, 10 }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+
+        {% if p.latest_releases.size > 0 %}
+        <section id="releases" class="grid-section">
+            <h2>Latest releases</h2>
+            <ul class="pulse-stream">
+                {% for rel in p.latest_releases %}
+                <li>
+                    <a class="pulse-repo" href="https://github.com/{{ p.org }}/{{ rel.repo }}">{{ rel.repo }}</a>
+                    <a class="pulse-sha" href="{{ rel.url }}">{{ rel.tag }}</a>
+                    <span class="pulse-msg">{{ rel.name }}</span>
+                    <span class="pulse-meta">{{ rel.published_at | slice: 0, 10 }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if p.paper_statuses.size > 0 %}
+        <section id="papers" class="grid-section">
+            <h2>Papers & projects</h2>
+            <table class="pulse-table">
+                <thead>
+                    <tr>
+                        <th>Kind</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Status</th>
+                        <th>Lead</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s in p.paper_statuses %}
+                    <tr>
+                        <td><span class="kind-tag kind-{{ s.kind }}">{{ s.kind }}</span></td>
+                        <td><code>{{ s.id }}</code></td>
+                        <td class="cmt">{{ s.title }}</td>
+                        <td><span class="state state-{{ s.status }}">{{ s.status }}</span></td>
+                        <td class="meta">{{ s.lead }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        {% endif %}
+
+        {% if p.kg_snapshot %}
+        <section id="kg" class="grid-section">
+            <h2>Knowledge graph pulse</h2>
+            <div class="pulse-tiles">
+                <div class="pulse-tile small">
+                    <span class="pulse-tile-num">{{ p.kg_snapshot.entities }}</span>
+                    <span class="pulse-tile-label">entities</span>
+                </div>
+                <div class="pulse-tile small">
+                    <span class="pulse-tile-num">{{ p.kg_snapshot.mentions }}</span>
+                    <span class="pulse-tile-label">mentions</span>
+                </div>
+                <div class="pulse-tile small">
+                    <span class="pulse-tile-num">+{{ p.kg_snapshot.new_this_week }}</span>
+                    <span class="pulse-tile-label">new this week</span>
+                </div>
+            </div>
+            <p class="meta"><a href="{{ p.kg_snapshot.link }}">Browse KG snapshot on GitHub</a></p>
+        </section>
+        {% else %}
+        <section id="kg" class="grid-section">
+            <h2>Knowledge graph pulse</h2>
+            <p class="meta">KG snapshot not yet available. The first nightly snapshot will populate this section.</p>
+        </section>
+        {% endif %}
+
+        {% if p.unreachable_repos.size > 0 %}
+        <section class="grid-section">
+            <h2>Diagnostics</h2>
+            <p class="meta">{{ p.unreachable_repos.size }} endpoint(s) unreachable during this refresh
+                (likely private repos without PAT scopes).</p>
+        </section>
+        {% endif %}
+
+        <section class="grid-section">
+            <p class="meta">
+                Source:
+                <a href="https://github.com/{{ p.org }}/{{ site.github.repository_name | default: 'single-molecule-sequencing.github.io' }}/blob/main/_data/pulse.yml">_data/pulse.yml</a>
+                · regenerated nightly by
+                <a href="https://github.com/{{ p.org }}/single-molecule-sequencing.github.io/blob/main/.github/workflows/lab-pulse.yml">lab-pulse.yml</a>.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Single Molecule Sequencing &middot; Athey Lab, University of Michigan
+    </footer>
+
+</body>
+
+</html>

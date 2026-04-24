@@ -1,0 +1,49 @@
+name: Lab Pulse Refresh
+
+on:
+  schedule:
+    - cron: '15 5 * * *'   # 05:15 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml python-dateutil pytest
+
+      - name: Run tests
+        working-directory: scripts
+        run: pytest test_generate_pulse.py -q
+
+      - name: Generate pulse
+        env:
+          GH_TOKEN: ${{ secrets.LAB_REFRESH_PAT != '' && secrets.LAB_REFRESH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_pulse.py \
+              --output _data/pulse.yml \
+              --output-md _includes/pulse.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/pulse.yml _includes/pulse.md
+          if git diff --staged --quiet; then
+            echo "No pulse changes"
+          else
+            git commit -m "auto: refresh lab pulse [skip ci]"
+            git push
+          fi
