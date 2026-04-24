@@ -116,6 +116,24 @@ title: Home
             </div>
         </section>
 
+        <section class="grid-section">
+            <h2>Knowledge Graph</h2>
+            <div class="repo-grid">
+                <div class="card">
+                    <h3>Lab knowledge snapshot</h3>
+                    <p>
+                        Weekly snapshot of the lab's ambient knowledge graph built from papers, decisions,
+                        transcripts, experiments, and registries. Snapshot of <strong>{{ site.data.kg.date }}</strong>:
+                        <strong>{{ site.data.kg.total_entities }}</strong> entities,
+                        <strong>{{ site.data.kg.total_mentions }}</strong> entity mentions across
+                        <strong>{{ site.data.kg.total_sources }}</strong> sources;
+                        {{ site.data.kg.new_entities_7d }} new entities in the last 7 days.
+                    </p>
+                    <a href="{{ site.data.kg.repo_url }}" class="card-link">View methodology &rarr;</a>
+                </div>
+            </div>
+        </section>
+
     </div>
 
     <footer>

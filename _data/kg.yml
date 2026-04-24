@@ -1,0 +1,16 @@
+# Knowledge-graph snapshot headline stats, updated weekly by the
+# lab-system-kg-snapshot timer (Sundays 05:00 local). Drives the hub's
+# "Knowledge graph" card.
+#
+# The dated snapshots themselves live in the private lab-wiki repo; this
+# file only carries public-safe aggregate counts + the date.
+
+date: "2026-04-24"
+total_entities: 2547
+total_mentions: 24236
+total_sources: 26354
+new_entities_7d: 50
+new_mentions_7d: 23673
+co_mention_edges: 540
+methodology_url: "https://github.com/Single-Molecule-Sequencing/lab-system/blob/main/docs/KG_SNAPSHOT.md"
+repo_url: "https://github.com/Single-Molecule-Sequencing/lab-system"
