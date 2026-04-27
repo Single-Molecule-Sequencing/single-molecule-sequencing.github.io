@@ -1,17 +1,17 @@
-generated_at: '2026-04-26T05:58:17.341524+00:00'
+generated_at: '2026-04-27T06:12:16.465155+00:00'
 window_days: 7
 org: Single-Molecule-Sequencing
 totals:
-  repos_tracked: 10
-  commits_past_week: 10
-  issues_opened: 1
-  issues_closed: 6
-  prs_opened: 26
-  prs_merged: 22
-  prs_closed: 1
+  repos_tracked: 8
+  commits_past_week: 5
+  issues_opened: 0
+  issues_closed: 0
+  prs_opened: 0
+  prs_merged: 0
+  prs_closed: 0
   releases_recent: 0
-  open_issues: 1
-  open_prs: 5
+  open_issues: 0
+  open_prs: 1
 repos:
 - name: single-molecule-sequencing.github.io
   default_branch: main
@@ -20,34 +20,16 @@ repos:
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io
   commits_in_window: 5
   last_commit:
-    sha: 18fd725
+    sha: 446bd07
     message: 'auto: refresh lab pulse [skip ci]'
-    when: '2026-04-25T05:52:20Z'
+    when: '2026-04-26T05:58:25Z'
     author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/18fd72505473d6bc61ff81c34d556b2a95c13d24
+    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/446bd07b70a9e65b8dc866f9b55c8b21224ccc91
   open_issues: 0
   open_prs: 0
   ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/24924035197
+  ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/24949641040
   days_since_last_commit: 1
-- name: fragment-viewer
-  default_branch: main
-  description: Interactive CE viewer + Cas9 cut-product predictor for the Athey lab fluorescent-adapter
-    fragment analysis assay
-  visibility: public
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer
-  commits_in_window: 5
-  last_commit:
-    sha: 53a5899
-    message: 'feat(registry): Lab Registry tab consumes golden-gate''s lab_registry.json (#48)'
-    when: '2026-04-26T02:12:58Z'
-    author: gregfar
-    url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/53a58992c8671627e67d5581f3760e49f17a31e2
-  open_issues: 1
-  open_prs: 4
-  ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/actions/runs/24946032723
-  days_since_last_commit: 0
 - name: dorado-bench
   default_branch: main
   description: A benchmarking effort of various doraro models for the SMS pipeline
@@ -59,7 +41,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 65
+  days_since_last_commit: 66
 - name: End_Reason_nf
   default_branch: main
   description: ''
@@ -71,7 +53,7 @@ repos:
   open_prs: 0
   ci_status: failure
   ci_url: https://github.com/Single-Molecule-Sequencing/End_Reason_nf/actions/runs/19545795692
-  days_since_last_commit: 156
+  days_since_last_commit: 157
 - name: PGx-prep
   default_branch: main
   description: Preparatory demultiplex algorithms and HPC+Slurm solutions on BAM files for the ONT PGx
@@ -84,7 +66,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 65
+  days_since_last_commit: 66
 - name: dorado-run
   default_branch: main
   description: ONT Dorado basecaller Orchestration Pipeline
@@ -96,7 +78,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 5
+  days_since_last_commit: 6
 - name: ONT-SMA-seq
   default_branch: main
   description: The SMA-seq workflow for Oxford Nanopore Technology, in pure Python and SQLite database.
@@ -108,7 +90,7 @@ repos:
   open_prs: 1
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 5
+  days_since_last_commit: 6
 - name: barbell
   default_branch: master
   description: Extremely fast and accurate Nanopore demultiplexing
@@ -120,7 +102,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 53
+  days_since_last_commit: 54
 - name: CypScope-prep
   default_branch: main
   description: Preparatory FastQ extraction and alignment on per-sample BAM files for CypScope
@@ -132,50 +114,14 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 43
-- name: CypScope
-  default_branch: main
-  description: ONT sequencing read coverage report tool over CYP2D6, CYP2D7, and CYP2D8P regions
-  visibility: public
-  url: https://github.com/Single-Molecule-Sequencing/CypScope
-  commits_in_window: 0
-  last_commit: null
-  open_issues: 0
-  open_prs: 0
-  ci_status: unknown
-  ci_url: null
-  days_since_last_commit: 40
+  days_since_last_commit: 44
 recent_commits:
-- repo: fragment-viewer
-  sha: 53a5899
-  author: gregfar
-  when: '2026-04-26T02:12:58Z'
-  message: 'feat(registry): Lab Registry tab consumes golden-gate''s lab_registry.json (#48)'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/53a58992c8671627e67d5581f3760e49f17a31e2
-- repo: fragment-viewer
-  sha: 0c2a1ed
-  author: gregfar
-  when: '2026-04-26T01:33:47Z'
-  message: 'feat(sanger): "Load V059 demo" button synthesizes an .ab1 in-memory (#46)'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/0c2a1ed0ca8ad6d175306939ffa4e516c2146abe
-- repo: fragment-viewer
-  sha: 78e3ed2
-  author: gregfar
-  when: '2026-04-26T01:24:17Z'
-  message: 'refactor(sanger): extract PrimerMappingPanel into sanger/primer_mapping.jsx (#45)'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/78e3ed2d697a200dc6ef9d1b37b91539cf35e019
-- repo: fragment-viewer
-  sha: 80893f3
-  author: gregfar
-  when: '2026-04-26T01:15:21Z'
-  message: "refactor(sanger): begin modularization \u2014 extract IssuesPanel + shared module (#44)"
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/80893f3251f46c7792f952cb6c76bb0378a25591
-- repo: fragment-viewer
-  sha: 942fa41
-  author: gregfar
-  when: '2026-04-26T01:07:55Z'
-  message: 'test(sanger): synthesize an ABIF in-memory + parser round-trip (#43)'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/commit/942fa41a6ab1c9b52823a129eef558e1eeaf87a7
+- repo: single-molecule-sequencing.github.io
+  sha: 446bd07
+  author: github-actions[bot]
+  when: '2026-04-26T05:58:25Z'
+  message: 'auto: refresh lab pulse [skip ci]'
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/446bd07b70a9e65b8dc866f9b55c8b21224ccc91
 - repo: single-molecule-sequencing.github.io
   sha: 18fd725
   author: github-actions[bot]
@@ -200,392 +146,8 @@ recent_commits:
   when: '2026-04-24T17:47:37Z'
   message: 'chore: refresh pulse.yml against full org token'
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/8713f1460abf7d09922a3149c7a546e34bf0b8f8
-- repo: single-molecule-sequencing.github.io
-  sha: da8e245
-  author: github-actions[bot]
-  when: '2026-04-24T17:43:28Z'
-  message: 'auto: refresh lab pulse [skip ci]'
-  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/da8e2452c5406b6125206e47d77f5bce55559b28
-recent_issues:
-- repo: fragment-viewer
-  kind: issue
-  number: 24
-  title: Accept SnapGene files with alternate targets and upload multiple gRNAs (update target/gRNA graphics
-    and logic)
-  state: open
-  author: gregfar
-  created_at: '2026-04-23T19:15:54Z'
-  updated_at: '2026-04-23T20:42:48Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/24
-- repo: fragment-viewer
-  kind: issue
-  number: 23
-  title: '[bug] Batch Heatmap Displayed and Exported Images Scales Differently'
-  state: closed
-  author: Vanishborn
-  created_at: '2026-04-18T23:49:56Z'
-  updated_at: '2026-04-23T18:45:53Z'
-  closed_at: '2026-04-23T18:45:53Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/23
-- repo: fragment-viewer
-  kind: issue
-  number: 22
-  title: '[bug] [UI] Lab tools GitHub links all 404'
-  state: closed
-  author: Vanishborn
-  created_at: '2026-04-18T23:38:50Z'
-  updated_at: '2026-04-23T18:45:51Z'
-  closed_at: '2026-04-23T18:45:51Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/22
-- repo: fragment-viewer
-  kind: issue
-  number: 21
-  title: '[critical] [bug] [cosmetic] [consistency] Graphical design elements in figures not in sync with
-    cosmetic problems'
-  state: closed
-  author: Vanishborn
-  created_at: '2026-04-18T23:35:29Z'
-  updated_at: '2026-04-23T18:45:50Z'
-  closed_at: '2026-04-23T18:45:50Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/21
-- repo: fragment-viewer
-  kind: issue
-  number: 20
-  title: "[bug] [cosmetic] Construct architecture and End-structure editor \xB7 dA-tailability red cut\
-    \ box not uniform and \"CUT\" text not centered horizontally inside"
-  state: closed
-  author: Vanishborn
-  created_at: '2026-04-18T23:15:12Z'
-  updated_at: '2026-04-23T18:45:48Z'
-  closed_at: '2026-04-23T18:45:48Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/20
-- repo: fragment-viewer
-  kind: issue
-  number: 19
-  title: '[bug] [cosmetic] Post-dA-tailing molecular products + adapter ligation sub title text pushing
-    Export button into a weird shape'
-  state: closed
-  author: Vanishborn
-  created_at: '2026-04-18T23:12:10Z'
-  updated_at: '2026-04-23T18:45:46Z'
-  closed_at: '2026-04-23T18:45:46Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/19
-- repo: fragment-viewer
-  kind: issue
-  number: 18
-  title: '[bug] [cosmetic] Construct architecture Export button covering top right of figure'
-  state: closed
-  author: Vanishborn
-  created_at: '2026-04-18T23:09:29Z'
-  updated_at: '2026-04-23T18:45:45Z'
-  closed_at: '2026-04-23T18:45:45Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/issues/18
+recent_issues: []
 recent_prs:
-- repo: fragment-viewer
-  kind: pr
-  number: 50
-  title: 'docs: design proposal for issue #24 (multi-target / multi-gRNA)'
-  state: open
-  author: gregfar
-  created_at: '2026-04-26T03:15:07Z'
-  updated_at: '2026-04-26T03:17:10Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/50
-- repo: fragment-viewer
-  kind: pr
-  number: 49
-  title: 'feat(registry): search Lab Registry by DNA sequence'
-  state: open
-  author: gregfar
-  created_at: '2026-04-26T02:48:33Z'
-  updated_at: '2026-04-26T02:48:33Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/49
-- repo: fragment-viewer
-  kind: pr
-  number: 48
-  title: "feat(registry): Lab Registry tab \u2014 8th tab consuming golden-gate's index"
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T02:11:56Z'
-  updated_at: '2026-04-26T02:15:35Z'
-  closed_at: '2026-04-26T02:12:59Z'
-  merged_at: '2026-04-26T02:12:59Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/48
-- repo: fragment-viewer
-  kind: pr
-  number: 46
-  title: 'feat(sanger): "Load V059 demo" button synthesizes an .ab1 in-memory'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T01:28:40Z'
-  updated_at: '2026-04-26T01:33:49Z'
-  closed_at: '2026-04-26T01:33:47Z'
-  merged_at: '2026-04-26T01:33:47Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/46
-- repo: fragment-viewer
-  kind: pr
-  number: 47
-  title: "docs: data architecture proposal \u2014 sequences, primers, designs"
-  state: open
-  author: gregfar
-  created_at: '2026-04-26T01:32:32Z'
-  updated_at: '2026-04-26T01:32:32Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/47
-- repo: fragment-viewer
-  kind: pr
-  number: 45
-  title: 'refactor(sanger): extract PrimerMappingPanel'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T01:23:21Z'
-  updated_at: '2026-04-26T01:24:19Z'
-  closed_at: '2026-04-26T01:24:18Z'
-  merged_at: '2026-04-26T01:24:18Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/45
-- repo: fragment-viewer
-  kind: pr
-  number: 44
-  title: "refactor(sanger): begin modularization \u2014 extract IssuesPanel + shared module"
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T01:14:18Z'
-  updated_at: '2026-04-26T01:15:23Z'
-  closed_at: '2026-04-26T01:15:21Z'
-  merged_at: '2026-04-26T01:15:21Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/44
-- repo: fragment-viewer
-  kind: pr
-  number: 43
-  title: 'test(sanger): synthesized ABIF + parseSangerAbif round-trip'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T01:06:43Z'
-  updated_at: '2026-04-26T01:07:56Z'
-  closed_at: '2026-04-26T01:07:55Z'
-  merged_at: '2026-04-26T01:07:55Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/43
-- repo: fragment-viewer
-  kind: pr
-  number: 42
-  title: "feat(sanger): .dna \u2194 .dna diff panel"
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T01:03:05Z'
-  updated_at: '2026-04-26T01:06:05Z'
-  closed_at: '2026-04-26T01:04:10Z'
-  merged_at: '2026-04-26T01:04:10Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/42
-- repo: fragment-viewer
-  kind: pr
-  number: 41
-  title: 'feat(sanger): manual chunking + ORF translation + primer overlay'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T00:57:43Z'
-  updated_at: '2026-04-26T01:01:35Z'
-  closed_at: '2026-04-26T00:58:50Z'
-  merged_at: '2026-04-26T00:58:50Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/41
-- repo: fragment-viewer
-  kind: pr
-  number: 40
-  title: 'feat(sanger): ingest .phd.1 Phred companion files'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T00:42:18Z'
-  updated_at: '2026-04-26T00:45:30Z'
-  closed_at: '2026-04-26T00:43:21Z'
-  merged_at: '2026-04-26T00:43:21Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/40
-- repo: fragment-viewer
-  kind: pr
-  number: 39
-  title: 'feat(sanger): print/PDF report builder'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T00:36:56Z'
-  updated_at: '2026-04-26T00:40:30Z'
-  closed_at: '2026-04-26T00:38:08Z'
-  merged_at: '2026-04-26T00:38:08Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/39
-- repo: fragment-viewer
-  kind: pr
-  number: 38
-  title: 'feat(sanger): primer mapping panel'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T00:30:31Z'
-  updated_at: '2026-04-26T00:33:51Z'
-  closed_at: '2026-04-26T00:31:41Z'
-  merged_at: '2026-04-26T00:31:41Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/38
-- repo: fragment-viewer
-  kind: pr
-  number: 37
-  title: 'feat(sanger): auto-detect trace issues with zoomable previews'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T00:23:23Z'
-  updated_at: '2026-04-26T00:25:55Z'
-  closed_at: '2026-04-26T00:24:26Z'
-  merged_at: '2026-04-26T00:24:26Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/37
-- repo: fragment-viewer
-  kind: pr
-  number: 36
-  title: 'feat(sanger): stacked mini-chromatograms on shared reference axis'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-26T00:03:40Z'
-  updated_at: '2026-04-26T00:07:44Z'
-  closed_at: '2026-04-26T00:04:50Z'
-  merged_at: '2026-04-26T00:04:50Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/36
-- repo: fragment-viewer
-  kind: pr
-  number: 35
-  title: 'feat(sanger): restriction sites + ORFs + GC composition'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T23:58:12Z'
-  updated_at: '2026-04-26T00:01:40Z'
-  closed_at: '2026-04-25T23:59:16Z'
-  merged_at: '2026-04-25T23:59:15Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/35
-- repo: fragment-viewer
-  kind: pr
-  number: 34
-  title: 'feat(sanger): coverage map + consensus + Q-histogram + verification CSV'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T23:51:14Z'
-  updated_at: '2026-04-25T23:56:48Z'
-  closed_at: '2026-04-25T23:52:16Z'
-  merged_at: '2026-04-25T23:52:16Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/34
-- repo: fragment-viewer
-  kind: pr
-  number: 33
-  title: 'feat(sanger): zoomable chromatogram + .dna/FASTA exports + multi-sample summary'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T23:39:32Z'
-  updated_at: '2026-04-25T23:42:40Z'
-  closed_at: '2026-04-25T23:40:37Z'
-  merged_at: '2026-04-25T23:40:37Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/33
-- repo: fragment-viewer
-  kind: pr
-  number: 30
-  title: 'feat(ux): additive Export Studio modal'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T22:33:48Z'
-  updated_at: '2026-04-25T23:19:38Z'
-  closed_at: '2026-04-25T23:17:17Z'
-  merged_at: '2026-04-25T23:17:17Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/30
-- repo: fragment-viewer
-  kind: pr
-  number: 32
-  title: 'feat(urls): cross-tool deep-link params (?tab=, ?ref=, ?sample=)'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T23:09:29Z'
-  updated_at: '2026-04-25T23:17:49Z'
-  closed_at: '2026-04-25T23:10:28Z'
-  merged_at: '2026-04-25T23:10:28Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/32
-- repo: fragment-viewer
-  kind: pr
-  number: 29
-  title: 'feat(ux): five-step first-run tour overlay'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T22:16:56Z'
-  updated_at: '2026-04-25T23:17:49Z'
-  closed_at: '2026-04-25T23:15:02Z'
-  merged_at: '2026-04-25T23:15:02Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/29
-- repo: fragment-viewer
-  kind: pr
-  number: 26
-  title: "feat(sanger): add 7th tab \u2014 Sanger .ab1 chromatogram + alignment QC"
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T21:51:36Z'
-  updated_at: '2026-04-25T23:13:11Z'
-  closed_at: '2026-04-25T23:07:08Z'
-  merged_at: '2026-04-25T23:07:08Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/26
-- repo: fragment-viewer
-  kind: pr
-  number: 28
-  title: 'feat(urls): cross-tool deep-link params (?tab=, ?ref=, ?sample=)'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T22:09:11Z'
-  updated_at: '2026-04-25T23:07:10Z'
-  closed_at: '2026-04-25T23:07:10Z'
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/28
-- repo: fragment-viewer
-  kind: pr
-  number: 31
-  title: 'docs(contrib): document Windows rollup-native one-line workaround'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T22:35:51Z'
-  updated_at: '2026-04-25T23:01:57Z'
-  closed_at: '2026-04-25T23:01:56Z'
-  merged_at: '2026-04-25T23:01:56Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/31
-- repo: fragment-viewer
-  kind: pr
-  number: 27
-  title: 'feat(catalog): runtime-fetched gRNA catalog (public/grna_catalog.json)'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T22:03:10Z'
-  updated_at: '2026-04-25T23:01:51Z'
-  closed_at: '2026-04-25T23:01:50Z'
-  merged_at: '2026-04-25T23:01:50Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/27
-- repo: fragment-viewer
-  kind: pr
-  number: 25
-  title: 'feat(lib): add SnapGene .dna parser; bump README version drift'
-  state: closed
-  author: gregfar
-  created_at: '2026-04-25T21:39:25Z'
-  updated_at: '2026-04-25T23:01:45Z'
-  closed_at: '2026-04-25T23:01:44Z'
-  merged_at: '2026-04-25T23:01:44Z'
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/25
-- repo: fragment-viewer
-  kind: pr
-  number: 1
-  title: Improve README discoverability and information architecture; add prominent live tool link
-  state: open
-  author: Copilot
-  created_at: '2026-04-18T19:12:19Z'
-  updated_at: '2026-04-25T22:54:24Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/fragment-viewer/pull/1
 - repo: ONT-SMA-seq
   kind: pr
   number: 6
