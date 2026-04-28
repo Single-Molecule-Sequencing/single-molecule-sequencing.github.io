@@ -1,4 +1,4 @@
-generated_at: '2026-04-27T06:12:16.465155+00:00'
+generated_at: '2026-04-28T06:15:11.971111+00:00'
 window_days: 7
 org: Single-Molecule-Sequencing
 totals:
@@ -11,7 +11,7 @@ totals:
   prs_closed: 0
   releases_recent: 0
   open_issues: 0
-  open_prs: 1
+  open_prs: 0
 repos:
 - name: single-molecule-sequencing.github.io
   default_branch: main
@@ -20,15 +20,15 @@ repos:
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io
   commits_in_window: 5
   last_commit:
-    sha: 446bd07
+    sha: 042cc58
     message: 'auto: refresh lab pulse [skip ci]'
-    when: '2026-04-26T05:58:25Z'
+    when: '2026-04-27T06:12:22Z'
     author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/446bd07b70a9e65b8dc866f9b55c8b21224ccc91
+    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/042cc5892e0f582f69223b46b52063f5567d0942
   open_issues: 0
   open_prs: 0
   ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/24949641040
+  ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/24979446120
   days_since_last_commit: 1
 - name: dorado-bench
   default_branch: main
@@ -41,7 +41,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 66
+  days_since_last_commit: 67
 - name: End_Reason_nf
   default_branch: main
   description: ''
@@ -53,7 +53,7 @@ repos:
   open_prs: 0
   ci_status: failure
   ci_url: https://github.com/Single-Molecule-Sequencing/End_Reason_nf/actions/runs/19545795692
-  days_since_last_commit: 157
+  days_since_last_commit: 158
 - name: PGx-prep
   default_branch: main
   description: Preparatory demultiplex algorithms and HPC+Slurm solutions on BAM files for the ONT PGx
@@ -66,7 +66,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 66
+  days_since_last_commit: 67
 - name: dorado-run
   default_branch: main
   description: ONT Dorado basecaller Orchestration Pipeline
@@ -78,7 +78,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 6
+  days_since_last_commit: 7
 - name: ONT-SMA-seq
   default_branch: main
   description: The SMA-seq workflow for Oxford Nanopore Technology, in pure Python and SQLite database.
@@ -87,10 +87,10 @@ repos:
   commits_in_window: 0
   last_commit: null
   open_issues: 0
-  open_prs: 1
+  open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 6
+  days_since_last_commit: 7
 - name: barbell
   default_branch: master
   description: Extremely fast and accurate Nanopore demultiplexing
@@ -102,7 +102,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 54
+  days_since_last_commit: 55
 - name: CypScope-prep
   default_branch: main
   description: Preparatory FastQ extraction and alignment on per-sample BAM files for CypScope
@@ -114,8 +114,14 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 44
+  days_since_last_commit: 45
 recent_commits:
+- repo: single-molecule-sequencing.github.io
+  sha: 042cc58
+  author: github-actions[bot]
+  when: '2026-04-27T06:12:22Z'
+  message: 'auto: refresh lab pulse [skip ci]'
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/042cc5892e0f582f69223b46b52063f5567d0942
 - repo: single-molecule-sequencing.github.io
   sha: 446bd07
   author: github-actions[bot]
@@ -140,25 +146,8 @@ recent_commits:
   when: '2026-04-24T17:50:20Z'
   message: 'feat(hub): Knowledge Graph card with live snapshot stats'
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/f43ef151feef41f8e707c9c2d2f1cde702930463
-- repo: single-molecule-sequencing.github.io
-  sha: 8713f14
-  author: gregfar
-  when: '2026-04-24T17:47:37Z'
-  message: 'chore: refresh pulse.yml against full org token'
-  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/8713f1460abf7d09922a3149c7a546e34bf0b8f8
 recent_issues: []
-recent_prs:
-- repo: ONT-SMA-seq
-  kind: pr
-  number: 6
-  title: Add `ont-sma report` subcommand for automated presentation generation
-  state: open
-  author: Copilot
-  created_at: '2026-04-16T03:00:02Z'
-  updated_at: '2026-04-20T19:19:29Z'
-  closed_at: null
-  merged_at: null
-  url: https://github.com/Single-Molecule-Sequencing/ONT-SMA-seq/pull/6
+recent_prs: []
 latest_releases: []
 kg_snapshot: null
 paper_statuses: []
