@@ -1,4 +1,4 @@
-generated_at: '2026-04-29T06:10:36.585969+00:00'
+generated_at: '2026-04-30T06:13:51.200946+00:00'
 window_days: 7
 org: Single-Molecule-Sequencing
 totals:
@@ -20,16 +20,16 @@ repos:
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io
   commits_in_window: 5
   last_commit:
-    sha: 29458ed
+    sha: 9bef974
     message: 'auto: refresh lab pulse [skip ci]'
-    when: '2026-04-28T06:15:17Z'
+    when: '2026-04-29T06:10:45Z'
     author: github-actions[bot]
-    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/29458ed8be0a0cc14a7dca3ad4787a74423eb13c
+    url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/9bef97424a4392b291d530a4867280c57a235f97
   open_issues: 0
   open_prs: 0
   ci_status: success
-  ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/25037122506
-  days_since_last_commit: 0
+  ci_url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/actions/runs/25093717453
+  days_since_last_commit: 1
 - name: dorado-bench
   default_branch: main
   description: A benchmarking effort of various doraro models for the SMS pipeline
@@ -41,7 +41,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 68
+  days_since_last_commit: 69
 - name: End_Reason_nf
   default_branch: main
   description: ''
@@ -53,7 +53,7 @@ repos:
   open_prs: 0
   ci_status: failure
   ci_url: https://github.com/Single-Molecule-Sequencing/End_Reason_nf/actions/runs/19545795692
-  days_since_last_commit: 159
+  days_since_last_commit: 160
 - name: PGx-prep
   default_branch: main
   description: Preparatory demultiplex algorithms and HPC+Slurm solutions on BAM files for the ONT PGx
@@ -66,7 +66,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 68
+  days_since_last_commit: 69
 - name: dorado-run
   default_branch: main
   description: ONT Dorado basecaller Orchestration Pipeline
@@ -78,7 +78,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 8
+  days_since_last_commit: 9
 - name: ONT-SMA-seq
   default_branch: main
   description: The SMA-seq workflow for Oxford Nanopore Technology, in pure Python and SQLite database.
@@ -90,7 +90,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 8
+  days_since_last_commit: 9
 - name: barbell
   default_branch: master
   description: Extremely fast and accurate Nanopore demultiplexing
@@ -102,7 +102,7 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 56
+  days_since_last_commit: 57
 - name: CypScope-prep
   default_branch: main
   description: Preparatory FastQ extraction and alignment on per-sample BAM files for CypScope
@@ -114,8 +114,14 @@ repos:
   open_prs: 0
   ci_status: unknown
   ci_url: null
-  days_since_last_commit: 46
+  days_since_last_commit: 47
 recent_commits:
+- repo: single-molecule-sequencing.github.io
+  sha: 9bef974
+  author: github-actions[bot]
+  when: '2026-04-29T06:10:45Z'
+  message: 'auto: refresh lab pulse [skip ci]'
+  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/9bef97424a4392b291d530a4867280c57a235f97
 - repo: single-molecule-sequencing.github.io
   sha: 29458ed
   author: github-actions[bot]
@@ -140,12 +146,6 @@ recent_commits:
   when: '2026-04-25T05:52:20Z'
   message: 'auto: refresh lab pulse [skip ci]'
   url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/18fd72505473d6bc61ff81c34d556b2a95c13d24
-- repo: single-molecule-sequencing.github.io
-  sha: d3712a6
-  author: gregfar
-  when: '2026-04-24T18:17:39Z'
-  message: 'docs(footer): link to AUTOMATION.md for operator CD reference'
-  url: https://github.com/Single-Molecule-Sequencing/single-molecule-sequencing.github.io/commit/d3712a6e8f1e5ef2dd50abba91b3be75321e11a8
 recent_issues: []
 recent_prs: []
 latest_releases: []
